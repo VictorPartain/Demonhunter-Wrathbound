@@ -1,7 +1,7 @@
 # 🧿 Demon Hunter: Wrathbound
 
 **A Minecraft Fabric mod for 1.21+**  
-**Powered by [Spell Engine](https://modrinth.com/mod/spell-engine) · Built with the [[TxniTemplate multiversion template]]([url](https://github.com/txnimc/blahaj))**
+**Powered by [Spell Engine](https://modrinth.com/mod/spell-engine)
 
 ---
 
