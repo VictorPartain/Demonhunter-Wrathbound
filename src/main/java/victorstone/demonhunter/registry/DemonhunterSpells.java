@@ -1,7 +1,7 @@
 package victorstone.demonhunter.registry;
 
 import net.spell_engine.api.spell.Spell;
-import net.spell_engine.api.spell.SpellRegistry;
+import net.spell_engine.api.spell.registry.SpellRegistry;
 import net.minecraft.util.Identifier;
 import victorstone.demonhunter.spell.FelRushSpell;
 
