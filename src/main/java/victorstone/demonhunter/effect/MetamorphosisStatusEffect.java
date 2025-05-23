@@ -1,0 +1,27 @@
+package victorstone.demonhunter.effect;
+import net.minecraft.client.particle.Particle;
+import net.minecraft.entity.Entity;
+import net.minecraft.entity.effect.StatusEffect;
+import net.minecraft.entity.effect.StatusEffectCategory;
+import net.spell_engine.api.spell.fx.ParticleBatch;
+import net.spell_engine.fx.ParticleHelper;
+
+public class MetamorphosisStatusEffect extends StatusEffect {
+    public static final float multiplier = 0.5f;
+    public MetamorphosisStatusEffect(StatusEffectCategory statusEffectCategory, int color) {
+        super(statusEffectCategory, color);
+    }
+    private static final ParticleBatch particles = new ParticleBatch(
+            "spell_engine:holy_spark",
+            ParticleBatch.Shape.PILLAR,
+            ParticleBatch.Origin.CENTER,
+            null,
+            25,
+            0.01f,
+            0.2f,
+            0
+    );
+    public static void pop(Entity centerEntity) {
+        ParticleHelper.sendBatches(centerEntity, new ParticleBatch[]{particles});
+    }
+}

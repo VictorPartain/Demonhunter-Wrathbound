@@ -1,0 +1,27 @@
+[14:20:57] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.21.1 with Fabric Loader 0.16.9
+[14:20:57] [main/DEBUG] (FabricLoader/GamePatch) Found game constructor: net.minecraft.client.main.Main -> net.minecraft.client.MinecraftClient
+[14:20:57] [main/DEBUG] (FabricLoader/GamePatch) Patching game constructor <init>(Lnet/minecraft/client/RunArgs;)V
+[14:20:57] [main/DEBUG] (FabricLoader/GamePatch) Run directory field is thought to be net/minecraft/client/MinecraftClient/runDirectory
+[14:20:57] [main/DEBUG] (FabricLoader/GamePatch) Applying brand name hook to net/minecraft/client/ClientBrandRetriever::getClientModName
+[14:20:57] [main/DEBUG] (FabricLoader/GamePatch) Applying brand name hook to net/minecraft/server/MinecraftServer::getServerModName
+[14:20:57] [main/DEBUG] (FabricLoader/Mappings) Loading mappings took 107 ms
+[14:20:57] [main/DEBUG] (FabricLoader/GamePatch) Patched 3 classs
+[14:20:57] [main/DEBUG] (FabricLoader/Discovery) Mod discovery time: 13.4 ms
+[14:20:57] [main/WARN] (FabricLoader/Resolution) Mod resolution failed
+[14:20:57] [main/INFO] (FabricLoader/Resolution) Immediate reason: [HARD_DEP_NO_CANDIDATE demonhunter 2.4.5-1.21.1 {depends fabricloader @ [>=0.16.14]}, ROOT_FORCELOAD_SINGLE demonhunter 2.4.5-1.21.1]
+[14:20:57] [main/INFO] (FabricLoader/Resolution) Reason: [HARD_DEP demonhunter 2.4.5-1.21.1 {depends fabricloader @ [>=0.16.14]}, HARD_DEP wizards 2.4.2+1.21.1 {depends runes @ [>=1.0.3+1.21.1]}]
+[14:20:57] [main/INFO] (FabricLoader/Resolution) Fix: add [add:runes 1.0.3+1.21.1 ([[1.0.3+1.21.1,∞)])], remove [], replace [[fabricloader 0.16.9] -> add:fabricloader 0.16.14 ([[0.16.14,∞)])]
+[14:20:57] [main/ERROR] (FabricLoader) Incompatible mods found!
+net.fabricmc.loader.impl.FormattedException: Some of your mods are incompatible with the game or each other!
+A potential solution has been determined, this may resolve your problem:
+	 - Install runes, version 1.0.3+1.21.1 or later.
+	 - Replace mod 'Fabric Loader' (fabricloader) 0.16.9 with version 0.16.14 or later.
+More details:
+	 - Mod 'demonhunter' (demonhunter) 2.4.5-1.21.1 requires version 0.16.14 or later of mod 'Fabric Loader' (fabricloader), but only the wrong version is present: 0.16.9!
+	 - Mod 'Wizards (RPG Series)' (wizards) 2.4.2+1.21.1 requires version 1.0.3+1.21.1 or later of runes, which is missing!
+	at net.fabricmc.loader.impl.FormattedException.ofLocalized(FormattedException.java:51) ~[fabric-loader-0.16.9.jar:?]
+	at net.fabricmc.loader.impl.FabricLoaderImpl.load(FabricLoaderImpl.java:196) ~[fabric-loader-0.16.9.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.init(Knot.java:146) ~[fabric-loader-0.16.9.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:68) [fabric-loader-0.16.9.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.16.9.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]

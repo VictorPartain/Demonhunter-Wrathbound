@@ -3,7 +3,9 @@
 	"package": "victorstone.demonhunter.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
-		"ExampleMixin"
+	],
+	"client": [
+		"LivingEntityMetamorphosis"
 	],
 	"injectors": {
 		"defaultRequire": 1

@@ -3,7 +3,7 @@ package victorstone.demonhunter.demonhunter;
  * import net.paladins.entity.BarrierEntity;
  * import net.paladins.effect.PaladinEffects;
  * import net.paladins.PaladinsMod;
- * Check this out and double check what these files use.
+ * Check this out and double-check what these files use.
  * import org.jetbrains.annotations.Nullable;
  * */
 
@@ -22,6 +22,7 @@ import net.spell_power.api.SpellSchool;
 import net.spell_power.api.SpellSchools;
 import org.jetbrains.annotations.Nullable;
 import victorstone.demonhunter.Demonhunter;
+import victorstone.demonhunter.effect.DemonhunterEffects;
 
 import java.util.List;
 import java.util.ArrayList;
@@ -70,7 +71,7 @@ public class DemonhunterSpells {
 
         return spell;
 
-}
+    }
     private static void Cooldown(Spell spell, float duration) {
         if(spell.cost == null){
             spell.cost = new Spell.Cost();
@@ -166,42 +167,37 @@ public class DemonhunterSpells {
 
     public static final SpellTooltipData METAMORPHOSIS = add(metamorphosis());
     private static SpellTooltipData metamorphosis() {
-            var id = Identifier.of(Demonhunter.MOD_ID, "metamorphosis");
-            var title = "Metamorphosis";
-            var description = "";
+        var id = Identifier.of(Demonhunter.MOD_ID, "metamorphosis");
+        var title = "Metamorphosis";
+        var description = "";
 
-            var spell = active();
-            spell.school = SpellSchools.FIRE;
-            spell.range = 0;
-            spell.tier = 2;
+        var spell = active();
+        spell.school = SpellSchools.FIRE;
+        spell.range = 0;
+        spell.tier = 2;
 
 //            spell.release.animation = "spell_engine:one_handed_area_release";
 
-            var buf = EffectImpact(DemonHunterEffects.METAMORPHOSIS.id, 8);
-            buff.action.status_effect.amplifier = 0;
-            buff.action.status_effect.amplifier_cap = 2;
-            buff.action.status_effect.amplifier_power_multiplier = 0.5F;
+        var buff = EffectImpact(DemonhunterEffects.METAMORPHOSIS.id, 8);
+        buff.action.status_effect.amplifier = 0;
+        buff.action.status_effect.amplifier_cap = 2;
+        buff.action.status_effect.amplifier_power_multiplier = 0.5F;
 
-            buff.sound = new Sound(DemonHunterSounds.metamorphosis_release.id());
-            buff.particles = new ParticleBatch[] {
-                    new ParticleBatch(
-                            CHAOS_IMPACT_DECELERATE.toString(),
-                            ParticleBatch.Shape.SPHERE, ParticleBatch.Origin.CENTER,
-                            40, 0.2F, 0.2F)
-            };
-            spell.impacts = List.of(buff);
+        buff.sound = new Sound(DemonhunterSounds.metamorphosis.id());
+        buff.particles = new ParticleBatch[] {
+                new ParticleBatch(
+                        CHAOS_IMPACT_DECELERATE.toString(),
+                        ParticleBatch.Shape.SPHERE, ParticleBatch.Origin.CENTER,
+                        40, 0.2F, 0.2F)
+        };
+        spell.impacts = List.of(buff);
 
-            Cooldown(spell, 30);
-            ItemCost(spell, "runes:chaos_stone");
-            spell.cost.exhaust = 0.3F;
+        Cooldown(spell, 30);
+        ItemCost(spell, "runes:chaos_stone");
+        spell.cost.exhaust = 0.3F;
 
-            return new SpellTooltipData(id, spell, title, description, null);
-        }
+        return new SpellTooltipData(id, spell, title, description, null);
     }
-
-
-
-
-
 }
+
 
