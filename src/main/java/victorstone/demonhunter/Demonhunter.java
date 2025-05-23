@@ -1,7 +1,7 @@
 package victorstone.demonhunter;
 
 import net.fabricmc.api.ModInitializer;
-import victorstone.demonhunter.registry.DemonhunterSpells;
+import victorstone.demonhunter.demonhunter.DemonhunterSpells;
 
 
 import org.slf4j.Logger;
