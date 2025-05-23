@@ -19,13 +19,13 @@ _Demon Hunter: Wrathbound_ transforms Minecraft into a dark fantasy battlefield,
 ### 🌀 Spell System Integration
 - Full support for **Spell Engine**
 - Spellcasting through weapon attacks (e.g., Warglaives, Runeblades)
-- Attributes like **Fel Power**, **Shadow Power**, and **Flame Power**
+- Attributes like **Fel Power**
 - All spells defined in simple, modular JSON format
 
 ### 🦅 Movement & Combat Abilities
-- Double jumps, air dashes, gliding, and fel leaps
+- Double jumps, air dashes, and fel leaps
 - Spell-infused mobility skills for fast-paced battles
-- Aerial finishers and teleportation
+
 
 ### ✨ Visual Effects & Immersion
 - Custom particles, animations, and sound effects
@@ -36,7 +36,6 @@ _Demon Hunter: Wrathbound_ transforms Minecraft into a dark fantasy battlefield,
 - Customize and enhance your build with unique upgrade paths
 
 ### 🛠️ Built for Modders
-- Uses the **Blahj template** for multiversion Fabric development
 - Easily extendable with new spells, weapons, and mechanics
 - Designed to be JSON-driven and developer-friendly
 
