@@ -17,3 +17,14 @@
 /effect give Player14 demonhunter:metamorphosis 250
 /give Player14 minecraft:zombie_villager_spawn_egg 10
 /effect give Player14 demonhunter:metamorphosis 250
+/effect give Player405 demonhunter:metamorphosis infinite 250
+/gamemode creative
+/gamemode survival
+/give Player405 minecraft:cooked_beef 10
+/effect give Player405 demonhunter:metamorphosis infinite
+/effect clear Player405
+/effect give Player405 demonhunter:metamorphosis infinite
+/gamemode creative
+/effect give Player177 demonhunter:metamorphosis
+/gamemode survival
+/gamemode creative

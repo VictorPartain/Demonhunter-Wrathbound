@@ -47,16 +47,8 @@ public class MetamorphosisStatusEffect extends StatusEffect {
     public static void pop(Entity centerEntity) {
         ParticleHelper.sendBatches(centerEntity, new ParticleBatch[]{particles});
     }
-//    @Override
-//    public void onApplied(net.minecraft.entity.LivingEntity entity, net.minecraft.entity.attribute.AttributeContainer attributes, int amplifier) {
-//        // Apply absorption
-//        entity.setAbsorptionAmount(4 + amplifier * 2);
-//    }
-//
-//    @Override
-//    public void onRemoved(net.minecraft.entity.LivingEntity entity, net.minecraft.entity.attribute.AttributeContainer attributes, int amplifier) {
-//        // Remove absorption
-//        entity.setAbsorptionAmount(0);
-//    }
+
+
+
 
 }
