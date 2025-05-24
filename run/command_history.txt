@@ -1,0 +1,19 @@
+/effect give Player380 demonhunter:metamorphosis infinite
+/gamemode creative
+/gamemode survival
+/effect give Player380 demonhunter:metamorphosis
+/effect give Player380 demonhunter:metamorphosis infinite
+/gamemode creative
+/gamemode survival
+/effect clear
+/gamemode creative
+/effect give Player14 demonhunter:metamorphosis infinite
+/gamemode survival
+/give Player14 minecraft:spawner 1
+/give Player14 minecraft:blaze_spawn_egg
+/give Player14 minecraft:bread 5
+/give Player14 minecraft:zombie_villager_spawn_egg 1
+/effect give Player14 demonhunter:metamorphosis infinite
+/effect give Player14 demonhunter:metamorphosis 250
+/give Player14 minecraft:zombie_villager_spawn_egg 10
+/effect give Player14 demonhunter:metamorphosis 250

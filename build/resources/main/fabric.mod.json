@@ -2,7 +2,7 @@
 	"schemaVersion": 1,
 	"id": "demonhunter",
 	"version": "2.4.5-1.21.1",
-	"name": "demonhunter",
+	"name": "Demonhunter",
 	"description": "This is an example description! Tell everyone what your mod is about!",
 	"authors": [
 		"Me!"
@@ -14,6 +14,7 @@
 	"license": "CC0-1.0",
 	"icon": "assets/demonhunter/icon.png",
 	"environment": "*",
+
 	"entrypoints": {
 		"main": [
 			"victorstone.demonhunter.Demonhunter"
@@ -22,19 +23,21 @@
 			"victorstone.demonhunter.DemonhunterClient"
 		]
 	},
+
 	"mixins": [
-		"demonhunter.mixins.json",
 		{
-			"config": "demonhunter.client.mixins.json",
+			"config": "demonhunter.mixins.json",
 			"environment": "client"
 		}
 	],
+
 	"depends": {
 		"fabricloader": ">=0.16.14",
 		"minecraft": "~1.21.1",
 		"java": ">=21",
 		"fabric-api": "*"
 	},
+
 	"suggests": {
 		"another-mod": "*"
 	}
