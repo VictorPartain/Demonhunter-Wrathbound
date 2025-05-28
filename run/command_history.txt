@@ -28,3 +28,22 @@
 /effect give Player177 demonhunter:metamorphosis
 /gamemode survival
 /gamemode creative
+/effect give Player163 demonhunter:metamorphosis infinite
+/gamemode survival
+/gamemode creative
+/kill @a
+/kill @e
+/effect give Player92 demonhunter:metamorphosis
+/give Player513 demonhunter:metamorphosis_spellbook
+/gamemode survival
+/gamemode creative
+/kill @e
+/gamemode suq
+/gamemode survival
+/gamemode creative
+/give Player683 demonhunter:metamorphosis_spellbook
+/effect give Player683 demonhunter:metamorphosis
+/gamemode survival
+/spell_cooldown clear
+/spellbook list
+/gamemode creative

@@ -86,11 +86,20 @@ dependencies {
 }
 
 processResources {
-	inputs.property "version", project.version
+	processResources {
+		inputs.properties([
+				"version": project.version,
+				"minecraft_compat_version": project.minecraft_compat_version
+		])
 
-	filesMatching("fabric.mod.json") {
-		expand "version": project.version
+		filesMatching("fabric.mod.json") {
+			expand([
+					"version": project.version,
+					"minecraft_compat_version": project.minecraft_compat_version
+			])
+		}
 	}
+
 }
 
 tasks.withType(JavaCompile).configureEach {

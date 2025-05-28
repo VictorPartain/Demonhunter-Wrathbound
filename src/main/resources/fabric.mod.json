@@ -3,42 +3,26 @@
 	"id": "demonhunter",
 	"version": "${version}",
 	"name": "Demonhunter",
-	"description": "This is an example description! Tell everyone what your mod is about!",
-	"authors": [
-		"Me!"
-	],
-	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
-	},
-	"license": "CC0-1.0",
-	"icon": "assets/demonhunter/icon.png",
+	"description": "Adds a metamorphosis spellbook and transformation spell.",
+	"authors": ["YourName"],
+	"license": "MIT",
 	"environment": "*",
 
 	"entrypoints": {
-		"main": [
-			"victorstone.demonhunter.Demonhunter"
-		],
-		"client": [
-			"victorstone.demonhunter.DemonhunterClient"
-		]
+		"main": ["victorstone.demonhunter.Demonhunter"]
 	},
-
-	"mixins": [
-		{
-			"config": "demonhunter.mixins.json",
-			"environment": "client"
-		}
-	],
 
 	"depends": {
-		"fabricloader": ">=0.16.14",
-		"minecraft": "~1.21.1",
-		"java": ">=21",
-		"fabric-api": "*"
+		"fabricloader": ">=0.14.21",
+		"fabric-api": "*",
+		"spell_engine": "*",
+		"trinkets": "*",
+		"spell_power": "*",
+		"minecraft": ">=1.21.1",
+		"azurelibarmor": ">=3.0.1",
+		"runes": ">=1.0.3+1.21.1",
+		"structure_pool_api": "*"
 	},
 
-	"suggests": {
-		"another-mod": "*"
-	}
+	"mixins": []
 }

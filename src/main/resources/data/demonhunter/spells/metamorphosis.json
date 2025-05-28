@@ -1,0 +1,43 @@
+{
+  "school": "Arcane",
+  "range": 0,
+  "learn": {
+    "tier": 1
+  },
+  "cast": {
+    "animation": "spell_engine:point_blank_self",
+    "duration": 0.5
+  },
+  "release": {
+    "target": {
+      "type": "SELF"
+    },
+    "sound": {
+      "id": "minecraft:entity.player.levelup"
+    },
+    "particles": [
+      {
+        "particle_id": "spell_engine:arcane_hit",
+        "shape": "HELMET",
+        "origin": "HEAD",
+        "count": 20,
+        "min_speed": 0.2,
+        "max_speed": 0.4
+      }
+    ]
+  },
+  "impact": [
+    {
+      "action": {
+        "type": "STATUS_EFFECT",
+        "effect": "demonhunter:metamorphosis",
+        "duration": 200,
+        "amplifier": 0
+      }
+    }
+  ],
+  "cost": {
+    "cooldown_duration": 20,
+    "rpgmana": 30
+  }
+}
