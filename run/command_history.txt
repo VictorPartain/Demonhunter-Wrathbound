@@ -1,4 +1,3 @@
-/effect give Player380 demonhunter:metamorphosis infinite
 /gamemode creative
 /gamemode survival
 /effect give Player380 demonhunter:metamorphosis
@@ -47,3 +46,5 @@
 /spell_cooldown clear
 /spellbook list
 /gamemode creative
+/spell_cooldown clear Player695
+/effect give Player695 demonhunter:metamorphosis infinite 250
