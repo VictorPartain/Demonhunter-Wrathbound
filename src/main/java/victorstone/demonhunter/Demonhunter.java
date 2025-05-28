@@ -67,13 +67,13 @@ public class Demonhunter implements ModInitializer {
 
 		DemonhunterSounds.register();
 
-//		Group.DEMONHUNTER = FabricItemGroup.builder()
+		Group.DEMONHUNTER = FabricItemGroup.builder()
 //				.icon(() -> new ItemStack(Armors.paladinArmorSet_t2.head))
-//				.displayName(Text.translatable("itemGroup.paladins.general"))
-//				.build();
-//		Registry.register(Registries.ITEM_GROUP, Group.KEY, Group.PALADINS);
-////		DemonhunterBlocks.register();
-//		DemonhunterBooks.register();
+				.displayName(Text.translatable("itemGroup.demonhunter.spellbooks"))
+				.build();
+		Registry.register(Registries.ITEM_GROUP, Group.KEY, Group.DEMONHUNTER);
+//		DemonhunterBlocks.register();
+		DemonhunterBooks.register();
 
 //		Weapons.register(itemConfig.value.weapons);
 //		Shields.register(shieldConfig.value.shields);

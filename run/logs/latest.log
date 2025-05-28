@@ -1,5 +1,5 @@
-[20:44:31] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.21.1 with Fabric Loader 0.16.14
-[20:44:31] [main/INFO] (FabricLoader) Loading 68 mods:
+[16:17:21] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.21.1 with Fabric Loader 0.16.14
+[16:17:21] [main/INFO] (FabricLoader) Loading 68 mods:
 	- azurelibarmor 3.0.1
 	- cardinal-components-base 6.1.0
 	- cardinal-components-entity 6.1.0
@@ -68,70 +68,79 @@
 	- structure_pool_api 1.1.1+1.21.1
 	- trinkets 3.10.0
 	- wizards 2.4.2+1.21.1
-[20:44:31] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/Users/vpartain/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.5+mixin.0.8.7/22f9eb729e216a091673a574a5906dc1b9027fb3/sponge-mixin-0.15.5+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
-[20:44:31] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
-[20:44:31] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
-[20:44:31] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_21
-[20:44:32] [main/INFO] (FabricLoader/MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[20:44:33] [Datafixer Bootstrap/INFO] (Minecraft) 226 Datafixer optimizations took 313 milliseconds
-[20:44:39] [Render thread/INFO] (Minecraft) Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[20:44:39] [Render thread/INFO] (Minecraft) Setting user: Player494
-[20:44:39] [Render thread/INFO] (more_rpg_classes) Registering Mod Items for more_rpg_classes
-[20:44:40] [Render thread/INFO] (Indigo) [Indigo] Registering Indigo renderer!
-[20:44:40] [Render thread/INFO] (Minecraft) Backend library: LWJGL version 3.3.3-snapshot
-[20:44:42] [Render thread/INFO] (Minecraft) Reloading ResourceManager: vanilla, fabric, cardinal-components-base, cardinal-components-entity, cloth-config, demonhunter, fabric-api, fabric-api-base, fabric-api-lookup-api-v1, fabric-biome-api-v1, fabric-block-api-v1, fabric-block-view-api-v2, fabric-blockrenderlayer-v1, fabric-client-tags-api-v1, fabric-command-api-v1, fabric-command-api-v2, fabric-commands-v0, fabric-content-registries-v0, fabric-convention-tags-v1, fabric-convention-tags-v2, fabric-crash-report-info-v1, fabric-data-attachment-api-v1, fabric-data-generation-api-v1, fabric-dimensions-v1, fabric-entity-events-v1, fabric-events-interaction-v0, fabric-game-rule-api-v1, fabric-gametest-api-v1, fabric-item-api-v1, fabric-item-group-api-v1, fabric-key-binding-api-v1, fabric-keybindings-v0, fabric-lifecycle-events-v1, fabric-loot-api-v2, fabric-loot-api-v3, fabric-message-api-v1, fabric-model-loading-api-v1, fabric-networking-api-v1, fabric-object-builder-api-v1, fabric-particles-v1, fabric-recipe-api-v1, fabric-registry-sync-v0, fabric-renderer-api-v1, fabric-renderer-indigo, fabric-renderer-registries-v1, fabric-rendering-data-attachment-v1, fabric-rendering-fluids-v1, fabric-rendering-v0, fabric-rendering-v1, fabric-resource-conditions-api-v1, fabric-resource-loader-v0, fabric-screen-api-v1, fabric-screen-handler-api-v1, fabric-sound-api-v1, fabric-transfer-api-v1, fabric-transitive-access-wideners-v1, fabricloader, more_rpg_classes, playeranimator, runes, spell_engine, spell_power, structure_pool_api, trinkets, wizards
-[20:44:42] [Worker-Main-4/INFO] (Minecraft) Found unifont_all_no_pua-15.1.05.hex, loading
-[20:44:42] [Worker-Main-3/INFO] (Minecraft) Found unifont_jp_patch-15.1.05.hex, loading
-[20:44:43] [Worker-Main-7/WARN] (Minecraft) Unable to load model: 'witcher_rpg:item/enhanced_fencing_scroll' referenced from: spell_engine:item/scroll: java.io.FileNotFoundException: witcher_rpg:models/item/enhanced_fencing_scroll.json
-[20:44:43] [Worker-Main-7/WARN] (Minecraft) Unable to load model: 'wizards:item/frost_scroll' referenced from: spell_engine:item/scroll: java.io.FileNotFoundException: wizards:models/item/frost_scroll.json
-[20:44:43] [Worker-Main-7/WARN] (Minecraft) Unable to load model: 'archers_expansion:item/deadeye_scroll' referenced from: spell_engine:item/scroll: java.io.FileNotFoundException: archers_expansion:models/item/deadeye_scroll.json
-[20:44:43] [Worker-Main-7/WARN] (Minecraft) Unable to load model: 'elemental_wizards_rpg:item/wind_scroll' referenced from: spell_engine:item/scroll: java.io.FileNotFoundException: elemental_wizards_rpg:models/item/wind_scroll.json
-[20:44:43] [Worker-Main-7/WARN] (Minecraft) Unable to load model: 'paladins:item/priest_scroll' referenced from: spell_engine:item/scroll: java.io.FileNotFoundException: paladins:models/item/priest_scroll.json
-[20:44:43] [Worker-Main-7/WARN] (Minecraft) Unable to load model: 'paladins:item/paladin_scroll' referenced from: spell_engine:item/scroll: java.io.FileNotFoundException: paladins:models/item/paladin_scroll.json
-[20:44:43] [Worker-Main-7/WARN] (Minecraft) Unable to load model: 'elemental_wizards_rpg:item/terra_scroll' referenced from: spell_engine:item/scroll: java.io.FileNotFoundException: elemental_wizards_rpg:models/item/terra_scroll.json
-[20:44:43] [Worker-Main-7/WARN] (Minecraft) Unable to load model: 'witcher_rpg:item/base_signs_scroll' referenced from: spell_engine:item/scroll: java.io.FileNotFoundException: witcher_rpg:models/item/base_signs_scroll.json
-[20:44:43] [Worker-Main-7/WARN] (Minecraft) Unable to load model: 'witcher_rpg:item/enhanced_signs_scroll' referenced from: spell_engine:item/scroll: java.io.FileNotFoundException: witcher_rpg:models/item/enhanced_signs_scroll.json
-[20:44:43] [Worker-Main-7/WARN] (Minecraft) Unable to load model: 'forcemaster_rpg:item/forcemaster_scroll' referenced from: spell_engine:item/scroll: java.io.FileNotFoundException: forcemaster_rpg:models/item/forcemaster_scroll.json
-[20:44:43] [Worker-Main-7/WARN] (Minecraft) Unable to load model: 'witcher_rpg:item/fencing_scroll' referenced from: spell_engine:item/scroll: java.io.FileNotFoundException: witcher_rpg:models/item/fencing_scroll.json
-[20:44:43] [Worker-Main-7/WARN] (Minecraft) Unable to load model: 'archers_expansion:item/war_archer_scroll' referenced from: spell_engine:item/scroll: java.io.FileNotFoundException: archers_expansion:models/item/war_archer_scroll.json
-[20:44:43] [Worker-Main-7/WARN] (Minecraft) Unable to load model: 'berserker_rpg:item/berserker_scroll' referenced from: spell_engine:item/scroll: java.io.FileNotFoundException: berserker_rpg:models/item/berserker_scroll.json
-[20:44:43] [Worker-Main-7/WARN] (Minecraft) Unable to load model: 'archers_expansion:item/tundra_hunter_scroll' referenced from: spell_engine:item/scroll: java.io.FileNotFoundException: archers_expansion:models/item/tundra_hunter_scroll.json
-[20:44:43] [Worker-Main-7/WARN] (Minecraft) Unable to load model: 'archers:item/archer_scroll' referenced from: spell_engine:item/scroll: java.io.FileNotFoundException: archers:models/item/archer_scroll.json
-[20:44:43] [Worker-Main-7/WARN] (Minecraft) Unable to load model: 'wizards:item/arcane_scroll' referenced from: spell_engine:item/scroll: java.io.FileNotFoundException: wizards:models/item/arcane_scroll.json
-[20:44:43] [Worker-Main-7/WARN] (Minecraft) Unable to load model: 'wizards:item/fire_scroll' referenced from: spell_engine:item/scroll: java.io.FileNotFoundException: wizards:models/item/fire_scroll.json
-[20:44:43] [Worker-Main-7/WARN] (Minecraft) Unable to load model: 'elemental_wizards_rpg:item/aqua_scroll' referenced from: spell_engine:item/scroll: java.io.FileNotFoundException: elemental_wizards_rpg:models/item/aqua_scroll.json
-[20:44:43] [Worker-Main-7/WARN] (Minecraft) Unable to load model: 'rogues:item/warrior_scroll' referenced from: spell_engine:item/scroll: java.io.FileNotFoundException: rogues:models/item/warrior_scroll.json
-[20:44:43] [Worker-Main-7/WARN] (Minecraft) Unable to load model: 'rogues:item/rogue_scroll' referenced from: spell_engine:item/scroll: java.io.FileNotFoundException: rogues:models/item/rogue_scroll.json
-[20:44:44] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:item.goat_horn.play
-[20:44:44] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[20:44:44] [Render thread/WARN] (Minecraft) Missing sound for event: demonhunter:metamorphosis
-[20:44:44] [Render thread/INFO] (Minecraft) OpenAL initialized on device MacBook Air Speakers
-[20:44:44] [Render thread/INFO] (Minecraft) Sound engine started
-[20:44:44] [Render thread/INFO] (Minecraft) Created: 2048x1024x4 minecraft:textures/atlas/blocks.png-atlas
-[20:44:44] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
-[20:44:44] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[20:44:44] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[20:44:44] [Render thread/INFO] (Minecraft) Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
-[20:44:44] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[20:44:44] [Render thread/INFO] (Minecraft) Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
-[20:44:44] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[20:44:44] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[20:44:44] [Render thread/INFO] (Minecraft) Created: 1024x1024x0 minecraft:textures/atlas/particles.png-atlas
-[20:44:44] [Render thread/INFO] (Minecraft) Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
-[20:44:44] [Render thread/INFO] (Minecraft) Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[20:44:44] [Render thread/INFO] (Minecraft) Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
-[20:44:44] [Render thread/INFO] (Minecraft) Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
-[20:44:44] [Render thread/WARN] (Minecraft) Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
-[20:44:49] [Render thread/INFO] (Minecraft) Loaded 1366 recipes
-[20:44:49] [Render thread/INFO] (Minecraft) Loaded 1414 advancements
-[20:44:50] [Render thread/INFO] (BiomeModificationImpl) Applied 0 biome modifications to 0 of 64 new biomes in 1.056 ms
-[20:44:50] [Server thread/INFO] (Minecraft) [STDOUT]: Encoded SpellRegistry size (with package overhead): ??? bytes (in 1 string chunks with the size of 10000)
-[20:44:50] [Server thread/INFO] (Minecraft) Starting integrated minecraft server version 1.21.1
-[20:44:50] [Server thread/INFO] (Minecraft) Generating keypair
-[20:44:52] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
-[20:44:53] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[20:44:53] [Render thread/INFO] (Minecraft) Time elapsed: 515 ms
-[20:44:53] [Server thread/WARN] (ConventionLogWarnings) 
+[16:17:21] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/Users/vpartain/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.5+mixin.0.8.7/22f9eb729e216a091673a574a5906dc1b9027fb3/sponge-mixin-0.15.5+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
+[16:17:21] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
+[16:17:21] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
+[16:17:21] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_21
+[16:17:23] [main/INFO] (FabricLoader/MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[16:17:24] [Datafixer Bootstrap/INFO] (Minecraft) 226 Datafixer optimizations took 533 milliseconds
+[16:17:31] [Render thread/INFO] (Minecraft) Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[16:17:31] [Render thread/INFO] (Minecraft) Setting user: Player179
+[16:17:31] [Render thread/INFO] (more_rpg_classes) Registering Mod Items for more_rpg_classes
+[16:17:32] [Render thread/INFO] (Indigo) [Indigo] Registering Indigo renderer!
+[16:17:32] [Render thread/INFO] (Minecraft) Backend library: LWJGL version 3.3.3-snapshot
+[16:17:35] [Render thread/INFO] (Minecraft) Reloading ResourceManager: vanilla, fabric, cardinal-components-base, cardinal-components-entity, cloth-config, demonhunter, fabric-api, fabric-api-base, fabric-api-lookup-api-v1, fabric-biome-api-v1, fabric-block-api-v1, fabric-block-view-api-v2, fabric-blockrenderlayer-v1, fabric-client-tags-api-v1, fabric-command-api-v1, fabric-command-api-v2, fabric-commands-v0, fabric-content-registries-v0, fabric-convention-tags-v1, fabric-convention-tags-v2, fabric-crash-report-info-v1, fabric-data-attachment-api-v1, fabric-data-generation-api-v1, fabric-dimensions-v1, fabric-entity-events-v1, fabric-events-interaction-v0, fabric-game-rule-api-v1, fabric-gametest-api-v1, fabric-item-api-v1, fabric-item-group-api-v1, fabric-key-binding-api-v1, fabric-keybindings-v0, fabric-lifecycle-events-v1, fabric-loot-api-v2, fabric-loot-api-v3, fabric-message-api-v1, fabric-model-loading-api-v1, fabric-networking-api-v1, fabric-object-builder-api-v1, fabric-particles-v1, fabric-recipe-api-v1, fabric-registry-sync-v0, fabric-renderer-api-v1, fabric-renderer-indigo, fabric-renderer-registries-v1, fabric-rendering-data-attachment-v1, fabric-rendering-fluids-v1, fabric-rendering-v0, fabric-rendering-v1, fabric-resource-conditions-api-v1, fabric-resource-loader-v0, fabric-screen-api-v1, fabric-screen-handler-api-v1, fabric-sound-api-v1, fabric-transfer-api-v1, fabric-transitive-access-wideners-v1, fabricloader, more_rpg_classes, playeranimator, runes, spell_engine, spell_power, structure_pool_api, trinkets, wizards
+[16:17:35] [Worker-Main-7/INFO] (Minecraft) Found unifont_all_no_pua-15.1.05.hex, loading
+[16:17:36] [Worker-Main-4/INFO] (Minecraft) Found unifont_jp_patch-15.1.05.hex, loading
+[16:17:37] [Worker-Main-1/WARN] (Minecraft) Unable to load model: 'witcher_rpg:item/enhanced_fencing_scroll' referenced from: spell_engine:item/scroll: java.io.FileNotFoundException: witcher_rpg:models/item/enhanced_fencing_scroll.json
+[16:17:37] [Worker-Main-1/WARN] (Minecraft) Unable to load model: 'wizards:item/frost_scroll' referenced from: spell_engine:item/scroll: java.io.FileNotFoundException: wizards:models/item/frost_scroll.json
+[16:17:37] [Worker-Main-1/WARN] (Minecraft) Unable to load model: 'archers_expansion:item/deadeye_scroll' referenced from: spell_engine:item/scroll: java.io.FileNotFoundException: archers_expansion:models/item/deadeye_scroll.json
+[16:17:37] [Worker-Main-1/WARN] (Minecraft) Unable to load model: 'elemental_wizards_rpg:item/wind_scroll' referenced from: spell_engine:item/scroll: java.io.FileNotFoundException: elemental_wizards_rpg:models/item/wind_scroll.json
+[16:17:37] [Worker-Main-1/WARN] (Minecraft) Unable to load model: 'paladins:item/priest_scroll' referenced from: spell_engine:item/scroll: java.io.FileNotFoundException: paladins:models/item/priest_scroll.json
+[16:17:37] [Worker-Main-1/WARN] (Minecraft) Unable to load model: 'paladins:item/paladin_scroll' referenced from: spell_engine:item/scroll: java.io.FileNotFoundException: paladins:models/item/paladin_scroll.json
+[16:17:37] [Worker-Main-1/WARN] (Minecraft) Unable to load model: 'elemental_wizards_rpg:item/terra_scroll' referenced from: spell_engine:item/scroll: java.io.FileNotFoundException: elemental_wizards_rpg:models/item/terra_scroll.json
+[16:17:37] [Worker-Main-1/WARN] (Minecraft) Unable to load model: 'witcher_rpg:item/base_signs_scroll' referenced from: spell_engine:item/scroll: java.io.FileNotFoundException: witcher_rpg:models/item/base_signs_scroll.json
+[16:17:37] [Worker-Main-1/WARN] (Minecraft) Unable to load model: 'witcher_rpg:item/enhanced_signs_scroll' referenced from: spell_engine:item/scroll: java.io.FileNotFoundException: witcher_rpg:models/item/enhanced_signs_scroll.json
+[16:17:37] [Worker-Main-1/WARN] (Minecraft) Unable to load model: 'forcemaster_rpg:item/forcemaster_scroll' referenced from: spell_engine:item/scroll: java.io.FileNotFoundException: forcemaster_rpg:models/item/forcemaster_scroll.json
+[16:17:37] [Worker-Main-1/WARN] (Minecraft) Unable to load model: 'witcher_rpg:item/fencing_scroll' referenced from: spell_engine:item/scroll: java.io.FileNotFoundException: witcher_rpg:models/item/fencing_scroll.json
+[16:17:37] [Worker-Main-1/WARN] (Minecraft) Unable to load model: 'archers_expansion:item/war_archer_scroll' referenced from: spell_engine:item/scroll: java.io.FileNotFoundException: archers_expansion:models/item/war_archer_scroll.json
+[16:17:37] [Worker-Main-1/WARN] (Minecraft) Unable to load model: 'berserker_rpg:item/berserker_scroll' referenced from: spell_engine:item/scroll: java.io.FileNotFoundException: berserker_rpg:models/item/berserker_scroll.json
+[16:17:37] [Worker-Main-1/WARN] (Minecraft) Unable to load model: 'archers_expansion:item/tundra_hunter_scroll' referenced from: spell_engine:item/scroll: java.io.FileNotFoundException: archers_expansion:models/item/tundra_hunter_scroll.json
+[16:17:37] [Worker-Main-1/WARN] (Minecraft) Unable to load model: 'archers:item/archer_scroll' referenced from: spell_engine:item/scroll: java.io.FileNotFoundException: archers:models/item/archer_scroll.json
+[16:17:37] [Worker-Main-1/WARN] (Minecraft) Unable to load model: 'wizards:item/arcane_scroll' referenced from: spell_engine:item/scroll: java.io.FileNotFoundException: wizards:models/item/arcane_scroll.json
+[16:17:37] [Worker-Main-1/WARN] (Minecraft) Unable to load model: 'wizards:item/fire_scroll' referenced from: spell_engine:item/scroll: java.io.FileNotFoundException: wizards:models/item/fire_scroll.json
+[16:17:37] [Worker-Main-1/WARN] (Minecraft) Unable to load model: 'elemental_wizards_rpg:item/aqua_scroll' referenced from: spell_engine:item/scroll: java.io.FileNotFoundException: elemental_wizards_rpg:models/item/aqua_scroll.json
+[16:17:37] [Worker-Main-1/WARN] (Minecraft) Unable to load model: 'rogues:item/warrior_scroll' referenced from: spell_engine:item/scroll: java.io.FileNotFoundException: rogues:models/item/warrior_scroll.json
+[16:17:37] [Worker-Main-1/WARN] (Minecraft) Unable to load model: 'rogues:item/rogue_scroll' referenced from: spell_engine:item/scroll: java.io.FileNotFoundException: rogues:models/item/rogue_scroll.json
+[16:17:37] [Worker-Main-1/WARN] (Minecraft) Unable to load model: 'demonhunter:item/havoc_spell_book' referenced from: demonhunter:item/havoc_spell_book: java.io.FileNotFoundException: demonhunter:models/item/havoc_spell_book.json
+[16:17:40] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:item.goat_horn.play
+[16:17:40] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[16:17:40] [Render thread/WARN] (Minecraft) Missing sound for event: demonhunter:metamorphosis
+[16:17:42] [Render thread/INFO] (Minecraft) OpenAL initialized on device External Headphones
+[16:17:42] [Render thread/INFO] (Minecraft) Sound engine started
+[16:17:42] [Render thread/INFO] (Minecraft) Created: 2048x1024x4 minecraft:textures/atlas/blocks.png-atlas
+[16:17:42] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[16:17:42] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[16:17:42] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[16:17:42] [Render thread/INFO] (Minecraft) Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[16:17:42] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[16:17:42] [Render thread/INFO] (Minecraft) Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[16:17:42] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[16:17:42] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[16:17:43] [Render thread/INFO] (Minecraft) Created: 1024x1024x0 minecraft:textures/atlas/particles.png-atlas
+[16:17:43] [Render thread/INFO] (Minecraft) Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+[16:17:43] [Render thread/INFO] (Minecraft) Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[16:17:43] [Render thread/INFO] (Minecraft) Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+[16:17:43] [Render thread/INFO] (Minecraft) Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
+[16:17:43] [Render thread/WARN] (Minecraft) Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[16:18:22] [Render thread/INFO] (Minecraft) Loaded 1366 recipes
+[16:18:22] [Render thread/INFO] (Minecraft) Loaded 1414 advancements
+[16:18:23] [Render thread/INFO] (BiomeModificationImpl) Applied 0 biome modifications to 0 of 64 new biomes in 989.2 μs
+[16:18:23] [Server thread/INFO] (Minecraft) [STDOUT]: Encoded SpellRegistry size (with package overhead): ??? bytes (in 1 string chunks with the size of 10000)
+[16:18:23] [Server thread/INFO] (Minecraft) Starting integrated minecraft server version 1.21.1
+[16:18:23] [Server thread/INFO] (Minecraft) Generating keypair
+[16:18:27] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
+[16:18:28] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[16:18:28] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[16:18:28] [Render thread/INFO] (Minecraft) Time elapsed: 923 ms
+[16:18:28] [Server thread/WARN] (TranslationConventionLogWarnings) 
+	Dev warning - Untranslated Item Tags detected. Please translate your item tags so other mods such as recipe viewers can properly display your tag's name.
+	The format desired is tag.item.<namespace>.<path> for the translation key with slashes in path turned into periods.
+	To disable this message, set this system property in your runs: `-Dfabric-tag-conventions-v2.missingTagTranslationWarning=SILENCED`.
+	To see individual untranslated item tags found, set the system property to `-Dfabric-tag-conventions-v2.missingTagTranslationWarning=VERBOSE`.
+	Default is `SHORT`.
+
+[16:18:28] [Server thread/WARN] (ConventionLogWarnings) 
 	Dev warning - Legacy Tags detected. Please migrate your old tags to our new format that follows better conventions!
 	See classes under net.fabricmc.fabric.api.tag.convention.v2 package for all tags.
 
@@ -140,51 +149,40 @@
 	You can disable this message by this system property to your runs: `-Dfabric-tag-conventions-v1.legacyTagWarning=SILENCED`.
 	To see individual legacy tags found, set the system property to `-Dfabric-tag-conventions-v1.legacyTagWarning=VERBOSE` instead. Default is `SHORT`.
 
-[20:44:53] [Server thread/WARN] (TranslationConventionLogWarnings) 
-	Dev warning - Untranslated Item Tags detected. Please translate your item tags so other mods such as recipe viewers can properly display your tag's name.
-	The format desired is tag.item.<namespace>.<path> for the translation key with slashes in path turned into periods.
-	To disable this message, set this system property in your runs: `-Dfabric-tag-conventions-v2.missingTagTranslationWarning=SILENCED`.
-	To see individual untranslated item tags found, set the system property to `-Dfabric-tag-conventions-v2.missingTagTranslationWarning=VERBOSE`.
-	Default is `SHORT`.
-
-[20:44:53] [Server thread/INFO] (Minecraft) Changing view distance to 12, from 10
-[20:44:53] [Server thread/INFO] (Minecraft) Changing simulation distance to 12, from 0
-[20:44:54] [Server thread/INFO] (Minecraft) Player494[local:E:f307f39a] logged in with entity id 75 at (17.451715307934816, 67.0, 21.486995048805635)
-[20:44:54] [Server thread/INFO] (Minecraft) Player494 joined the game
-[20:44:54] [Render thread/WARN] (Minecraft) Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@26c3d33d=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/runes:arcane_rune_medium_altar
-[20:44:54] [Render thread/WARN] (Minecraft) Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@6acc8493=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/more_rpg_classes:terra_rune_small_altar
-[20:44:54] [Render thread/WARN] (Minecraft) Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@1f18b4bd=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/more_rpg_classes:storm_rune_small_altar
-[20:44:54] [Render thread/WARN] (Minecraft) Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@7c96f2ec=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/runes:frost_rune_medium_altar
-[20:44:54] [Render thread/WARN] (Minecraft) Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@3d52e66e=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/more_rpg_classes:terra_rune_medium_altar
-[20:44:54] [Render thread/WARN] (Minecraft) Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@24f41d31=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/more_rpg_classes:aqua_rune_medium_altar
-[20:44:54] [Render thread/WARN] (Minecraft) Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@3b16ad30=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/more_rpg_classes:aqua_rune_small_altar
-[20:44:54] [Render thread/WARN] (Minecraft) Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@3a03bdc2=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/runes:healing_rune_small_altar
-[20:44:54] [Render thread/WARN] (Minecraft) Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@5b6802f5=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/runes:fire_rune_medium_altar
-[20:44:54] [Render thread/WARN] (Minecraft) Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@2fe05a4b=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/runes:fire_rune_small_altar
-[20:44:54] [Render thread/WARN] (Minecraft) Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@5d21f26f=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/runes:arcane_rune_small_altar
-[20:44:54] [Render thread/WARN] (Minecraft) Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@5a0d95e6=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/runes:healing_rune_medium_altar
-[20:44:54] [Render thread/WARN] (Minecraft) Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@167bb050=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/more_rpg_classes:storm_rune_medium_altar
-[20:44:54] [Render thread/WARN] (Minecraft) Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@73dfee50=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/runes:frost_rune_small_altar
-[20:44:54] [Render thread/INFO] (Minecraft) Loaded 22 advancements
-[20:45:12] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[20:45:12] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[20:45:12] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[20:45:12] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[20:45:18] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[20:45:18] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[20:45:18] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[20:45:18] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[20:45:19] [Server thread/INFO] (Minecraft) Player494 lost connection: Disconnected
-[20:45:19] [Server thread/INFO] (Minecraft) Player494 left the game
-[20:45:19] [Server thread/INFO] (Minecraft) Stopping singleplayer server as player logged out
-[20:45:19] [Server thread/INFO] (Minecraft) Stopping server
-[20:45:19] [Server thread/INFO] (Minecraft) Saving players
-[20:45:19] [Server thread/INFO] (Minecraft) Saving worlds
-[20:45:19] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[20:45:20] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[20:45:20] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[20:45:20] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (New World): All chunks are saved
-[20:45:20] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[20:45:20] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[20:45:20] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage: All dimensions are saved
-[20:45:22] [Render thread/INFO] (Minecraft) Stopping!
+[16:18:28] [Server thread/INFO] (Minecraft) Changing view distance to 12, from 10
+[16:18:28] [Server thread/INFO] (Minecraft) Changing simulation distance to 12, from 0
+[16:18:29] [Server thread/INFO] (Minecraft) Player179[local:E:31c954dd] logged in with entity id 71 at (18.4100928499012, 66.0, 15.035001861344856)
+[16:18:29] [Server thread/INFO] (Minecraft) Player179 joined the game
+[16:18:29] [Render thread/WARN] (Minecraft) Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@3e7d1ded=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/runes:arcane_rune_medium_altar
+[16:18:29] [Render thread/WARN] (Minecraft) Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@58b0ba05=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/more_rpg_classes:terra_rune_small_altar
+[16:18:29] [Render thread/WARN] (Minecraft) Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@1c89c914=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/more_rpg_classes:storm_rune_small_altar
+[16:18:29] [Render thread/WARN] (Minecraft) Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@3f0e0ff3=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/runes:frost_rune_medium_altar
+[16:18:29] [Render thread/WARN] (Minecraft) Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@5a0d95e6=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/more_rpg_classes:terra_rune_medium_altar
+[16:18:29] [Render thread/WARN] (Minecraft) Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@a3a17d=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/more_rpg_classes:aqua_rune_medium_altar
+[16:18:29] [Render thread/WARN] (Minecraft) Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@1f8d0b7=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/more_rpg_classes:aqua_rune_small_altar
+[16:18:29] [Render thread/WARN] (Minecraft) Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@83fa191=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/runes:healing_rune_small_altar
+[16:18:29] [Render thread/WARN] (Minecraft) Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@46aa2d50=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/runes:fire_rune_medium_altar
+[16:18:29] [Render thread/WARN] (Minecraft) Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@9572324=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/runes:fire_rune_small_altar
+[16:18:29] [Render thread/WARN] (Minecraft) Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@6abed529=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/runes:arcane_rune_small_altar
+[16:18:29] [Render thread/WARN] (Minecraft) Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@1987ef7=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/runes:healing_rune_medium_altar
+[16:18:29] [Render thread/WARN] (Minecraft) Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@631b599a=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/more_rpg_classes:storm_rune_medium_altar
+[16:18:29] [Render thread/WARN] (Minecraft) Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@21cec5c5=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/runes:frost_rune_small_altar
+[16:18:29] [Render thread/INFO] (Minecraft) Loaded 22 advancements
+[16:19:02] [Server thread/INFO] (Minecraft) Player179 has made the advancement [Monster Hunter]
+[16:19:02] [Render thread/INFO] (Minecraft) [System] [CHAT] Player179 has made the advancement [Monster Hunter]
+[16:19:02] [Render thread/INFO] (Minecraft) Loaded 61 advancements
+[16:19:03] [Server thread/INFO] (Minecraft) Player179 has reached the goal [Choose your path]
+[16:19:03] [Render thread/INFO] (Minecraft) [System] [CHAT] Player179 has reached the goal [Choose your path]
+[16:19:03] [Render thread/INFO] (Minecraft) Loaded 64 advancements
+[16:19:21] [Server thread/INFO] (Minecraft) Player179 has made the advancement [Magic Attunement]
+[16:19:21] [Render thread/INFO] (Minecraft) [System] [CHAT] Player179 has made the advancement [Magic Attunement]
+[16:19:21] [Render thread/INFO] (Minecraft) Loaded 65 advancements
+[16:20:10] [Render thread/INFO] (Minecraft) Loaded 66 advancements
+[16:20:20] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[16:20:20] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[16:20:20] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[16:20:20] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[16:39:07] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[16:39:07] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[16:39:07] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[16:39:07] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether

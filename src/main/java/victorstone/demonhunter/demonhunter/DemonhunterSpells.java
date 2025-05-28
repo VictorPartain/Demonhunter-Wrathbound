@@ -193,7 +193,7 @@ public class DemonhunterSpells {
         spell.impacts = List.of(buff);
 
         Cooldown(spell, 30);
-        ItemCost(spell, "runes:chaos_stone");
+//        ItemCost(spell, "runes:");
         spell.cost.exhaust = 0.3F;
 
         return new SpellTooltipData(id, spell, title, description, null);
