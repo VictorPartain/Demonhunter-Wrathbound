@@ -1,17 +1,11 @@
 {
   "mappings": {
-    "victorstone/demonhunter/demonhunter/LivingEntityMetamorphosis": {
-      "damage": "Lnet/minecraft/class_1309;method_5643(Lnet/minecraft/class_1282;F)Z"
-    },
     "victorstone/demonhunter/mixin/LivingEntityMetamorphosis": {
       "damage": "Lnet/minecraft/class_1309;method_5643(Lnet/minecraft/class_1282;F)Z"
     }
   },
   "data": {
     "named:intermediary": {
-      "victorstone/demonhunter/demonhunter/LivingEntityMetamorphosis": {
-        "damage": "Lnet/minecraft/class_1309;method_5643(Lnet/minecraft/class_1282;F)Z"
-      },
       "victorstone/demonhunter/mixin/LivingEntityMetamorphosis": {
         "damage": "Lnet/minecraft/class_1309;method_5643(Lnet/minecraft/class_1282;F)Z"
       }

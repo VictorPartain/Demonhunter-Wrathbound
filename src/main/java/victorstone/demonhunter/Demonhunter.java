@@ -66,7 +66,6 @@ public class Demonhunter implements ModInitializer {
 //			tweaksConfig.value.ignore_items_required_mods = true;
 //		}
 
-		DemonhunterSounds.register();
 
 		Group.DEMONHUNTER = FabricItemGroup.builder()
 //				.icon(() -> new ItemStack(Armors.paladinArmorSet_t2.head))

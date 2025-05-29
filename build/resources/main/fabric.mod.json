@@ -9,7 +9,10 @@
 	"environment": "*",
 
 	"entrypoints": {
-		"main": ["victorstone.demonhunter.Demonhunter"]
+		"main": ["victorstone.demonhunter.Demonhunter"],
+		"fabric-datagen": [
+			"victorstone.demonhunter.datagen.DemonhunterDataGenerator"
+		]
 	},
 
 	"depends": {

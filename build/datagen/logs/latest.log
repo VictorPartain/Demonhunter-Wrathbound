@@ -1,0 +1,94 @@
+[11:00:18] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.21.1 with Fabric Loader 0.16.14
+[11:00:18] [main/INFO] (FabricLoader) Loading 56 mods:
+	- azurelibarmor 3.0.1
+	- cardinal-components-base 6.1.0
+	- cardinal-components-entity 6.1.0
+	- cloth-basic-math 0.6.1
+	- cloth-config 15.0.130
+	- demonhunter 2.4.5-1.21.1
+	- fabric-api 0.103.0+1.21.1
+	- fabric-api-base 0.4.42+6573ed8c48
+	- fabric-api-lookup-api-v1 1.6.68+b559734419
+	- fabric-biome-api-v1 13.0.29+5bd9f1bc19
+	- fabric-block-api-v1 1.0.22+0af3f5a719
+	- fabric-block-view-api-v2 1.0.10+6573ed8c19
+	- fabric-command-api-v1 1.2.49+f71b366f19
+	- fabric-command-api-v2 2.2.28+6ced4dd919
+	- fabric-commands-v0 0.2.66+df3654b319
+	- fabric-content-registries-v0 8.0.16+b559734419
+	- fabric-convention-tags-v1 2.0.21+7f945d5b19
+	- fabric-convention-tags-v2 2.6.1+9b16164119
+	- fabric-crash-report-info-v1 0.2.29+0af3f5a719
+	- fabric-data-attachment-api-v1 1.1.28+1daea21519
+	- fabric-data-generation-api-v1 20.2.18+16c4ae2519
+	- fabric-dimensions-v1 4.0.0+6fc22b9919
+	- fabric-entity-events-v1 1.7.0+2122d82819
+	- fabric-events-interaction-v0 0.7.12+ba9dae0619
+	- fabric-game-rule-api-v1 1.0.53+6ced4dd919
+	- fabric-gametest-api-v1 2.0.4+6fc22b9919
+	- fabric-item-api-v1 11.0.0+afdfc92119
+	- fabric-item-group-api-v1 4.1.5+3fc0e55219
+	- fabric-lifecycle-events-v1 2.3.12+6c1df36019
+	- fabric-loot-api-v2 3.0.14+3f89f5a519
+	- fabric-loot-api-v3 1.0.2+3f89f5a519
+	- fabric-message-api-v1 6.0.13+6573ed8c19
+	- fabric-networking-api-v1 4.2.2+60c3209b19
+	- fabric-object-builder-api-v1 15.2.0+40875a9319
+	- fabric-particles-v1 4.0.2+6573ed8c19
+	- fabric-recipe-api-v1 5.0.12+6508971219
+	- fabric-registry-sync-v0 5.1.2+60c3209b19
+	- fabric-rendering-data-attachment-v1 0.3.48+73761d2e19
+	- fabric-rendering-fluids-v1 3.1.6+1daea21519
+	- fabric-resource-conditions-api-v1 4.3.0+8dc279b119
+	- fabric-resource-loader-v0 1.3.0+5659912919
+	- fabric-screen-handler-api-v1 1.3.86+b559734419
+	- fabric-transfer-api-v1 5.1.17+1db1cc1f19
+	- fabric-transitive-access-wideners-v1 6.1.0+1daea21519
+	- fabricloader 0.16.14
+	- java 23
+	- minecraft 1.21.1
+	- mixinextras 0.4.1
+	- more_rpg_classes 2.2.2-1.21.1
+	- playeranimator 2.0.0-alpha1+1.21
+	- runes 1.0.3+1.21.1
+	- spell_engine 1.6.12+1.21.1
+	- spell_power 1.3.0+1.21.1
+	- structure_pool_api 1.1.1+1.21.1
+	- trinkets 3.10.0
+	- wizards 2.4.2+1.21.1
+[11:00:18] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/Users/vpartain/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.5+mixin.0.8.7/22f9eb729e216a091673a574a5906dc1b9027fb3/sponge-mixin-0.15.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[11:00:19] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
+[11:00:19] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
+[11:00:19] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_21
+[11:00:19] [main/INFO] (FabricLoader/MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[11:00:27] [main/INFO] (more_rpg_classes) Registering Mod Items for more_rpg_classes
+[11:00:27] [main/INFO] (FabricDataGenHelper) Running data generator for spell_power
+[11:00:27] [main/INFO] (Minecraft) Starting provider: Spell Power Attribute/enchantments
+[11:00:27] [main/INFO] (Minecraft) Spell Power Attribute/enchantments finished after 387 ms
+[11:00:27] [main/INFO] (Minecraft) All providers took: 388 ms
+[11:00:27] [main/INFO] (Minecraft) Caching: total files: 8, old count: 0, new count: 9, removed stale: 0, written: 8
+[11:00:27] [main/INFO] (FabricDataGenHelper) Running data generator for spell_engine
+[11:00:27] [main/INFO] (Minecraft) Starting provider: Spell Engine/Simple Particle Generator
+[11:00:27] [main/INFO] (Minecraft) Spell Engine/Simple Particle Generator finished after 21 ms
+[11:00:27] [main/INFO] (Minecraft) Starting provider: Spell Engine/Simple Sound Entry Generator
+[11:00:27] [main/INFO] (Minecraft) Spell Engine/Simple Sound Entry Generator finished after 3 ms
+[11:00:27] [main/INFO] (Minecraft) Starting provider: Spell Engine/Tags for minecraft:item
+[11:00:27] [main/INFO] (Minecraft) Spell Engine/Tags for minecraft:item finished after 25 ms
+[11:00:27] [main/INFO] (Minecraft) All providers took: 52 ms
+[11:00:27] [main/INFO] (Minecraft) Caching: total files: 247, old count: 0, new count: 239, removed stale: 9, written: 238
+[11:00:27] [main/INFO] (FabricDataGenHelper) Running data generator for wizards
+[11:00:27] [main/INFO] (Minecraft) Starting provider: Wizards (RPG Series)/Simple Sound Entry Generator
+[11:00:27] [main/INFO] (Minecraft) Wizards (RPG Series)/Simple Sound Entry Generator finished after 2 ms
+[11:00:27] [main/INFO] (Minecraft) Starting provider: Wizards (RPG Series)/Spell Generator
+[11:00:27] [main/INFO] (Minecraft) Wizards (RPG Series)/Spell Generator finished after 29 ms
+[11:00:27] [main/INFO] (Minecraft) Starting provider: Wizards (RPG Series)/Tags for minecraft:item
+[11:00:27] [main/INFO] (Minecraft) Wizards (RPG Series)/Tags for minecraft:item finished after 4 ms
+[11:00:27] [main/INFO] (Minecraft) All providers took: 36 ms
+[11:00:27] [main/INFO] (Minecraft) Caching: total files: 247, old count: 0, new count: 17, removed stale: 231, written: 16
+[11:00:27] [main/INFO] (FabricDataGenHelper) Running data generator for demonhunter
+[11:00:27] [main/INFO] (Minecraft) Starting provider: Demonhunter/Simple Sound Entry Generator
+[11:00:28] [main/INFO] (Minecraft) Demonhunter/Simple Sound Entry Generator finished after 1 ms
+[11:00:28] [main/INFO] (Minecraft) Starting provider: Demonhunter/Spell Generator
+[11:00:28] [main/INFO] (Minecraft) Demonhunter/Spell Generator finished after 5 ms
+[11:00:28] [main/INFO] (Minecraft) All providers took: 7 ms
+[11:00:28] [main/INFO] (Minecraft) Caching: total files: 21, old count: 0, new count: 3, removed stale: 19, written: 2

@@ -13,6 +13,7 @@ import victorstone.demonhunter.demonhunter.DemonhunterSounds;
 import java.util.List;
 
 
+
 public class DemonhunterBooks {
     public static void register() {
         var books = List.of("havoc","vengeance");
@@ -25,8 +26,8 @@ public class DemonhunterBooks {
             Identifier.of("demonhunter", "havoc_spellbook"),
             new SpellBookTrinketItem(
                     new Item.Settings().maxCount(1),
-                    null, // no spell pool
-                    DemonhunterSounds.METAMORPHOSIS_ENTRY.soundEvent()
+                    null,// no spell pool
+                    null
             )
     );
 
@@ -36,8 +37,8 @@ public class DemonhunterBooks {
             Identifier.of("demonhunter", "vengeance_spellbook"),
             new SpellBookTrinketItem(
                     new Item.Settings().maxCount(1),
-                    null, // no spell pool
-                    DemonhunterSounds.METAMORPHOSIS_ENTRY.soundEvent()
+                    null,
+                    null// no spell pool
             )
     );
 
