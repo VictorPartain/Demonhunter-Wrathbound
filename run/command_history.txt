@@ -1,4 +1,3 @@
-/gamemode creative
 /effect give Player14 demonhunter:metamorphosis infinite
 /gamemode survival
 /give Player14 minecraft:spawner 1
@@ -48,3 +47,4 @@
 /give Player810 demonhunter:vengeance_spell_book
 /gamemode survival
 /gamemode creative
+/give @p demonhunter:havoc_spellbook

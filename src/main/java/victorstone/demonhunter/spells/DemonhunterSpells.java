@@ -2,7 +2,10 @@ package victorstone.demonhunter.spells;
 
 import net.minecraft.util.Identifier;
 import net.spell_engine.api.spell.Spell;
+import net.spell_engine.api.spell.*;
 import net.spell_engine.api.spell.fx.Sound;
+import net.spell_power.api.SpellSchool;
+import net.spell_power.api.SpellSchools;
 import victorstone.demonhunter.Demonhunter;
 import victorstone.demonhunter.demonhunter.DemonhunterSounds;
 
@@ -25,6 +28,9 @@ public class DemonhunterSpells {
         var spell = new Spell();
 
         spell.type = Spell.Type.ACTIVE;
+        spell.school = SpellSchools.ARCANE;               // ✅ Required
+        spell.group = "primary";               // ✅ Must match spellbook JSON
+
         spell.active = new Spell.Active();
         spell.active.cast = new Spell.Active.Cast();
         spell.active.cast.duration = 1;
@@ -38,8 +44,9 @@ public class DemonhunterSpells {
         spell.cost.cooldown = new Spell.Cost.Cooldown();
         spell.cost.cooldown.duration = 10;
 
-        spell.impacts = List.of();  // Add any status effect application logic here
+        spell.impacts = List.of();  // Add effects here if needed
 
         return new Entry(id, spell);
     }
+
 }

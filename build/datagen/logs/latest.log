@@ -1,5 +1,5 @@
-[11:35:29] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.21.1 with Fabric Loader 0.16.14
-[11:35:29] [main/INFO] (FabricLoader) Loading 56 mods:
+[12:02:23] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.21.1 with Fabric Loader 0.16.14
+[12:02:23] [main/INFO] (FabricLoader) Loading 56 mods:
 	- azurelibarmor 3.0.1
 	- cardinal-components-base 6.1.0
 	- cardinal-components-entity 6.1.0
@@ -56,39 +56,39 @@
 	- structure_pool_api 1.1.1+1.21.1
 	- trinkets 3.10.0
 	- wizards 2.4.2+1.21.1
-[11:35:29] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/Users/vpartain/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.5+mixin.0.8.7/22f9eb729e216a091673a574a5906dc1b9027fb3/sponge-mixin-0.15.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[11:35:30] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
-[11:35:30] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
-[11:35:30] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_21
-[11:35:30] [main/INFO] (FabricLoader/MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[11:35:37] [main/INFO] (more_rpg_classes) Registering Mod Items for more_rpg_classes
-[11:35:37] [main/INFO] (FabricDataGenHelper) Running data generator for spell_engine
-[11:35:37] [main/INFO] (Minecraft) Starting provider: Spell Engine/Simple Particle Generator
-[11:35:37] [main/INFO] (Minecraft) Spell Engine/Simple Particle Generator finished after 26 ms
-[11:35:37] [main/INFO] (Minecraft) Starting provider: Spell Engine/Simple Sound Entry Generator
-[11:35:37] [main/INFO] (Minecraft) Spell Engine/Simple Sound Entry Generator finished after 2 ms
-[11:35:37] [main/INFO] (Minecraft) Starting provider: Spell Engine/Tags for minecraft:item
-[11:35:38] [main/INFO] (Minecraft) Spell Engine/Tags for minecraft:item finished after 297 ms
-[11:35:38] [main/INFO] (Minecraft) All providers took: 327 ms
-[11:35:38] [main/INFO] (Minecraft) Caching: total files: 247, old count: 0, new count: 239, removed stale: 9, written: 238
-[11:35:38] [main/INFO] (FabricDataGenHelper) Running data generator for spell_power
-[11:35:38] [main/INFO] (Minecraft) Starting provider: Spell Power Attribute/enchantments
-[11:35:38] [main/INFO] (Minecraft) Spell Power Attribute/enchantments finished after 21 ms
-[11:35:38] [main/INFO] (Minecraft) All providers took: 21 ms
-[11:35:38] [main/INFO] (Minecraft) Caching: total files: 249, old count: 0, new count: 9, removed stale: 241, written: 8
-[11:35:38] [main/INFO] (FabricDataGenHelper) Running data generator for demonhunter
-[11:35:38] [main/INFO] (Minecraft) Starting provider: Demonhunter/Simple Sound Entry Generator
-[11:35:38] [main/INFO] (Minecraft) Demonhunter/Simple Sound Entry Generator finished after 0 ms
-[11:35:38] [main/INFO] (Minecraft) Starting provider: Demonhunter/Spell Generator
-[11:35:38] [main/INFO] (Minecraft) Demonhunter/Spell Generator finished after 15 ms
-[11:35:38] [main/INFO] (Minecraft) All providers took: 16 ms
-[11:35:38] [main/INFO] (Minecraft) Caching: total files: 11, old count: 0, new count: 3, removed stale: 9, written: 2
-[11:35:38] [main/INFO] (FabricDataGenHelper) Running data generator for wizards
-[11:35:38] [main/INFO] (Minecraft) Starting provider: Wizards (RPG Series)/Simple Sound Entry Generator
-[11:35:38] [main/INFO] (Minecraft) Wizards (RPG Series)/Simple Sound Entry Generator finished after 2 ms
-[11:35:38] [main/INFO] (Minecraft) Starting provider: Wizards (RPG Series)/Spell Generator
-[11:35:38] [main/INFO] (Minecraft) Wizards (RPG Series)/Spell Generator finished after 7 ms
-[11:35:38] [main/INFO] (Minecraft) Starting provider: Wizards (RPG Series)/Tags for minecraft:item
-[11:35:38] [main/INFO] (Minecraft) Wizards (RPG Series)/Tags for minecraft:item finished after 3 ms
-[11:35:38] [main/INFO] (Minecraft) All providers took: 13 ms
-[11:35:38] [main/INFO] (Minecraft) Caching: total files: 20, old count: 0, new count: 17, removed stale: 4, written: 16
+[12:02:23] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/Users/vpartain/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.5+mixin.0.8.7/22f9eb729e216a091673a574a5906dc1b9027fb3/sponge-mixin-0.15.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[12:02:23] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
+[12:02:23] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
+[12:02:23] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_21
+[12:02:24] [main/INFO] (FabricLoader/MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[12:02:32] [main/INFO] (more_rpg_classes) Registering Mod Items for more_rpg_classes
+[12:02:32] [main/INFO] (FabricDataGenHelper) Running data generator for spell_engine
+[12:02:32] [main/INFO] (Minecraft) Starting provider: Spell Engine/Simple Particle Generator
+[12:02:32] [main/INFO] (Minecraft) Spell Engine/Simple Particle Generator finished after 26 ms
+[12:02:32] [main/INFO] (Minecraft) Starting provider: Spell Engine/Simple Sound Entry Generator
+[12:02:32] [main/INFO] (Minecraft) Spell Engine/Simple Sound Entry Generator finished after 2 ms
+[12:02:32] [main/INFO] (Minecraft) Starting provider: Spell Engine/Tags for minecraft:item
+[12:02:33] [main/INFO] (Minecraft) Spell Engine/Tags for minecraft:item finished after 246 ms
+[12:02:33] [main/INFO] (Minecraft) All providers took: 277 ms
+[12:02:33] [main/INFO] (Minecraft) Caching: total files: 242, old count: 0, new count: 239, removed stale: 4, written: 238
+[12:02:33] [main/INFO] (FabricDataGenHelper) Running data generator for wizards
+[12:02:33] [main/INFO] (Minecraft) Starting provider: Wizards (RPG Series)/Simple Sound Entry Generator
+[12:02:33] [main/INFO] (Minecraft) Wizards (RPG Series)/Simple Sound Entry Generator finished after 1 ms
+[12:02:33] [main/INFO] (Minecraft) Starting provider: Wizards (RPG Series)/Spell Generator
+[12:02:33] [main/INFO] (Minecraft) Wizards (RPG Series)/Spell Generator finished after 20 ms
+[12:02:33] [main/INFO] (Minecraft) Starting provider: Wizards (RPG Series)/Tags for minecraft:item
+[12:02:33] [main/INFO] (Minecraft) Wizards (RPG Series)/Tags for minecraft:item finished after 3 ms
+[12:02:33] [main/INFO] (Minecraft) All providers took: 25 ms
+[12:02:33] [main/INFO] (Minecraft) Caching: total files: 247, old count: 0, new count: 17, removed stale: 231, written: 16
+[12:02:33] [main/INFO] (FabricDataGenHelper) Running data generator for demonhunter
+[12:02:33] [main/INFO] (Minecraft) Starting provider: Demonhunter/Simple Sound Entry Generator
+[12:02:33] [main/INFO] (Minecraft) Demonhunter/Simple Sound Entry Generator finished after 0 ms
+[12:02:33] [main/INFO] (Minecraft) Starting provider: Demonhunter/Spell Generator
+[12:02:33] [main/INFO] (Minecraft) Demonhunter/Spell Generator finished after 2 ms
+[12:02:33] [main/INFO] (Minecraft) All providers took: 3 ms
+[12:02:33] [main/INFO] (Minecraft) Caching: total files: 21, old count: 0, new count: 3, removed stale: 19, written: 2
+[12:02:33] [main/INFO] (FabricDataGenHelper) Running data generator for spell_power
+[12:02:33] [main/INFO] (Minecraft) Starting provider: Spell Power Attribute/enchantments
+[12:02:33] [main/INFO] (Minecraft) Spell Power Attribute/enchantments finished after 24 ms
+[12:02:33] [main/INFO] (Minecraft) All providers took: 24 ms
+[12:02:33] [main/INFO] (Minecraft) Caching: total files: 12, old count: 0, new count: 9, removed stale: 4, written: 8

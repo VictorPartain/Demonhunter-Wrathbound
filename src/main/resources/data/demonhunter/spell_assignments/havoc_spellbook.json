@@ -1,0 +1,6 @@
+{
+  "is_proxy": true,
+  "spell_ids": [ "demonhunter:metamorphosis", "demonhunter:fel_dash" ],
+  "pool": "demonhunter:havoc",
+  "max_spell_count": 2
+}

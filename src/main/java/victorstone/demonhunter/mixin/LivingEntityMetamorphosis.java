@@ -41,6 +41,7 @@ public class LivingEntityMetamorphosis {
 		}
 	}
 }
+
 //package victorstone.demonhunter.mixin;
 //
 //import org.spongepowered.asm.mixin.Mixin;

@@ -140,13 +140,15 @@ publishing {
 	sourceSets {
 		main {
 			java {
-				srcDirs += ["src/main/generated"]
+				// DO NOT include generated here!
+				srcDirs = ["src/main/java"]
 			}
 			resources {
 				srcDirs += ["src/main/generated"]
 			}
 		}
 	}
+
 	tasks.withType(Copy).configureEach {
 		duplicatesStrategy = DuplicatesStrategy.EXCLUDE
 	}

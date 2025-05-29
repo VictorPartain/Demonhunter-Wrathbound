@@ -26,7 +26,7 @@ public class DemonhunterBooks {
             Identifier.of("demonhunter", "havoc_spellbook"),
             new SpellBookTrinketItem(
                     new Item.Settings().maxCount(1),
-                    null,// no spell pool
+                    Identifier.of("demonhunter", "havoc"),
                     null
             )
     );

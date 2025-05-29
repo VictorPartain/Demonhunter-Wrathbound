@@ -16,7 +16,7 @@ public class DemonhunterItems {
             "metamorphosis_spellbook",
             new SpellBookTrinketItem(
                     new Item.Settings().maxCount(1),
-                    Identifier.of("demonhunter", "spell_pools/havoc"),
+                    Identifier.of("demonhunter", "havoc"),
 //                    DemonhunterSounds.metamorphosis.sound
                     null
             )
