@@ -147,5 +147,9 @@ publishing {
 			}
 		}
 	}
+	tasks.withType(Copy).configureEach {
+		duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+	}
+
 
 }

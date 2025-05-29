@@ -1,0 +1,18 @@
+{
+  "spells": [
+    {
+      "id": "demonhunter:metamorphosis",
+      "weight": 10,
+      "quality": 1,
+      "min_level": 1,
+      "max_level": 100
+    },
+    {
+      "id": "demonhunter:fel_dash",
+      "weight": 10,
+      "quality": 1,
+      "min_level": 1,
+      "max_level": 100
+    }
+  ]
+}

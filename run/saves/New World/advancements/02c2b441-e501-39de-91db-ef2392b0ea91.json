@@ -5,24 +5,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/bookshelf": {
-    "criteria": {
-      "has_book": "2025-05-29 10:35:40 -0700"
-    },
-    "done": true
-  },
-  "rpg_series:classes": {
-    "criteria": {
-      "book": "2025-05-29 10:35:22 -0700"
-    },
-    "done": true
-  },
-  "rpg_series:spell_novice_arcane": {
-    "criteria": {
-      "bind": "2025-05-29 10:36:03 -0700"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/crafting_table": {
     "criteria": {
       "unlock_right_away": "2025-05-29 10:35:19 -0700"
@@ -32,6 +14,30 @@
   "rpg_series:misc_items": {
     "criteria": {
       "always": "2025-05-29 10:35:19 -0700"
+    },
+    "done": true
+  },
+  "more_rpg_content:root": {
+    "criteria": {
+      "always": "2025-05-29 10:35:19 -0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:savanna": "2025-05-29 10:35:20 -0700"
+    },
+    "done": false
+  },
+  "rpg_series:classes": {
+    "criteria": {
+      "book": "2025-05-29 10:35:22 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bookshelf": {
+    "criteria": {
+      "has_book": "2025-05-29 10:35:40 -0700"
     },
     "done": true
   },
@@ -47,21 +53,21 @@
     },
     "done": true
   },
-  "minecraft:adventure/adventuring_time": {
-    "criteria": {
-      "minecraft:savanna": "2025-05-29 10:35:20 -0700"
-    },
-    "done": false
-  },
   "minecraft:recipes/misc/writable_book": {
     "criteria": {
       "has_book": "2025-05-29 10:35:40 -0700"
     },
     "done": true
   },
-  "more_rpg_content:root": {
+  "rpg_series:spell_novice_arcane": {
     "criteria": {
-      "always": "2025-05-29 10:35:19 -0700"
+      "bind": "2025-05-29 10:36:03 -0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_by_something": "2025-05-29 11:33:02 -0700"
     },
     "done": true
   },

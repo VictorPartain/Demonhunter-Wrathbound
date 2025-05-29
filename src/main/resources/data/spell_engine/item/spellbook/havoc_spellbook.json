@@ -1,0 +1,8 @@
+{
+  "display": {
+    "name": "Havoc Spellbook",
+    "description": "Channel chaotic power.",
+    "style": "default"
+  },
+  "spell_group": "primary"
+}

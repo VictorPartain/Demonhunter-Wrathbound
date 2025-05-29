@@ -1,0 +1,8 @@
+{
+  "display": {
+    "name": "Vengeance Spellbook",
+    "description": "Channel chaotic power to protect your allies.",
+    "style": "default"
+  },
+  "spell_group": "primary"
+}
