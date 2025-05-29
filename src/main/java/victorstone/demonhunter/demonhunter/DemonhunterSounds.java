@@ -9,12 +9,17 @@ import net.minecraft.sound.SoundCategory;
 import net.minecraft.sound.SoundEvent;
 import net.minecraft.util.Identifier;
 import net.minecraft.world.World;
-import victorstone.demonhunter.Demonhunter;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class DemonhunterSounds {
+    // Step 1: Define identifiers FIRST
+    public static final Identifier METAMORPHOSIS_ID =  Identifier.of("demonhunter", "metamorphosis");
+    public static final SoundEvent METAMORPHOSIS = SoundEvent.of(METAMORPHOSIS_ID);
+    public static Entry metamorphosis;
+
+    // Step 2: Entry wrapper
     public static final class Entry {
         private final Identifier id;
         private final SoundEvent soundEvent;
@@ -27,11 +32,7 @@ public class DemonhunterSounds {
         }
 
         public Entry(String name) {
-            this(Identifier.of(Demonhunter.MOD_ID, name));
-        }
-
-        public Entry(Identifier id) {
-            this(id, SoundEvent.of(id));
+            this( Identifier.of("demonhunter", name), SoundEvent.of(Identifier.of("demonhunter", name)));
         }
 
         public Entry travelDistance(float distance) {
@@ -60,17 +61,19 @@ public class DemonhunterSounds {
         }
     }
 
+    // Step 3: Register entries
     public static final List<Entry> entries = new ArrayList<>();
-
     public static Entry add(Entry entry) {
         entries.add(entry);
         return entry;
     }
 
-    public static final Entry metamorphosis = add(new Entry("metamorphosis"));
+    // Step 4: Add metamorphosis to entries list
+    public static final Entry METAMORPHOSIS_ENTRY = add(new Entry(METAMORPHOSIS_ID, METAMORPHOSIS));
 
+    // Step 5: Registration
     public static void register() {
-        for (var entry: entries) {
+        for (var entry : entries) {
             entry.entry = Registry.registerReference(Registries.SOUND_EVENT, entry.id(), entry.soundEvent());
         }
     }
@@ -80,14 +83,6 @@ public class DemonhunterSounds {
     }
 
     public static void playSoundEvent(World world, Entity entity, SoundEvent soundEvent, float volume, float pitch) {
-        world.playSound(
-                (PlayerEntity)null,
-                entity.getX(),
-                entity.getY(),
-                entity.getZ(),
-                soundEvent,
-                SoundCategory.PLAYERS,
-                volume,
-                pitch);
+        world.playSound(null, entity.getX(), entity.getY(), entity.getZ(), soundEvent, SoundCategory.PLAYERS, volume, pitch);
     }
 }

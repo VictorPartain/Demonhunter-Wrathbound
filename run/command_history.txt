@@ -1,5 +1,3 @@
-/effect give Player380 demonhunter:metamorphosis infinite
-/gamemode creative
 /gamemode survival
 /effect clear
 /gamemode creative
@@ -48,3 +46,5 @@
 /gamemode survival
 /effect clear
 /gamemode creative
+/give Player810 demonhunter:metamorphosis_spellbook
+/give Player810 demonhunter:vengeance_spell_book

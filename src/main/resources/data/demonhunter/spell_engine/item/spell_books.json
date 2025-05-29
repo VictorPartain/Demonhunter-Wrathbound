@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "demonhunter:metamorphosis_spellbook"
+    "demonhunter:havoc_spell_book",
+    "demonhunter:vengeance_spell_book"
   ]
 }

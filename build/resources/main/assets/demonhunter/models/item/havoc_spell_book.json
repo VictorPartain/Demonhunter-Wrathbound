@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/handheld",
   "textures": {
-    "layer0": "demonhunter:item/metamorphosis_spellbook"
+    "layer0": "demonhunter:item/havoc_spell_book"
   }
 }

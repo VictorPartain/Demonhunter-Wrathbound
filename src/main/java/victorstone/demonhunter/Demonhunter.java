@@ -58,6 +58,7 @@ public class Demonhunter implements ModInitializer {
 		shieldConfig.refresh();
 		effectsConfig.refresh();
 		villageConfig.refresh();
+		DemonhunterSounds.register(); // Make sure this is called
 		DemonhunterItems.registerItems(); // ← This ensures the spell book gets registered
 
 //		tweaksConfig.refresh();
