@@ -1,0 +1,34 @@
+{
+  "school": "spell_power:arcane",
+  "group": "primary",
+  "tier": 1,
+  "active": {
+    "cast": {
+      "duration": 1.0,
+      "animation": "spell_engine:self_cast"
+    }
+  },
+  "release": {
+    "animation": "spell_engine:self_cast_release",
+    "sound": {
+      "id": "demonhunter:metamorphosis"
+    }
+  },
+  "impacts": [
+    {
+      "action": {
+        "type": "STATUS_EFFECT",
+        "status_effect": {
+          "effect_id": "demonhunter:metamorphosis",
+          "amplifier": 1,
+          "show_particles": true
+        }
+      }
+    }
+  ],
+  "cost": {
+    "cooldown": {
+      "duration": 10.0
+    }
+  }
+}

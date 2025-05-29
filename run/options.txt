@@ -71,7 +71,7 @@ notificationDisplayTime:1.0
 useNativeTransport:true
 mainHand:"right"
 attackIndicator:1
-tutorialStep:none
+tutorialStep:movement
 mouseWheelSensitivity:1.0
 rawMouseInput:true
 glDebugVerbosity:1
@@ -121,7 +121,7 @@ key_key.hotbar.6:key.keyboard.6
 key_key.hotbar.7:key.keyboard.7
 key_key.hotbar.8:key.keyboard.8
 key_key.hotbar.9:key.keyboard.9
-key_keybindings.spell_engine.bypass_spell_hotbar:key.keyboard.left.win
+key_keybindings.spell_engine.bypass_spell_hotbar:key.keyboard.left.alt
 key_keybindings.spell_engine.spell_hotbar_1:key.keyboard.unknown
 key_keybindings.spell_engine.spell_hotbar_2:key.keyboard.unknown
 key_keybindings.spell_engine.spell_hotbar_3:key.keyboard.unknown
@@ -131,7 +131,7 @@ key_keybindings.spell_engine.spell_hotbar_6:key.keyboard.unknown
 key_keybindings.spell_engine.spell_hotbar_7:key.keyboard.unknown
 key_keybindings.spell_engine.spell_hotbar_8:key.keyboard.unknown
 key_keybindings.spell_engine.spell_hotbar_9:key.keyboard.unknown
-soundCategory_master:0.0
+soundCategory_master:1.0
 soundCategory_music:1.0
 soundCategory_record:1.0
 soundCategory_weather:1.0

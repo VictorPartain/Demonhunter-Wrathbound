@@ -1,50 +1,5 @@
-/effect give Player14 demonhunter:metamorphosis infinite
-/gamemode survival
-/give Player14 minecraft:spawner 1
-/give Player14 minecraft:blaze_spawn_egg
-/give Player14 minecraft:bread 5
-/give Player14 minecraft:zombie_villager_spawn_egg 1
-/effect give Player14 demonhunter:metamorphosis infinite
-/effect give Player14 demonhunter:metamorphosis 250
-/give Player14 minecraft:zombie_villager_spawn_egg 10
-/effect give Player14 demonhunter:metamorphosis 250
-/effect give Player405 demonhunter:metamorphosis infinite 250
-/gamemode creative
-/gamemode survival
-/give Player405 minecraft:cooked_beef 10
-/effect give Player405 demonhunter:metamorphosis infinite
-/effect clear Player405
-/effect give Player405 demonhunter:metamorphosis infinite
-/gamemode creative
-/effect give Player177 demonhunter:metamorphosis
-/gamemode survival
-/gamemode creative
-/effect give Player163 demonhunter:metamorphosis infinite
-/gamemode survival
-/gamemode creative
-/kill @a
-/kill @e
-/effect give Player92 demonhunter:metamorphosis
-/give Player513 demonhunter:metamorphosis_spellbook
-/gamemode survival
-/gamemode creative
-/kill @e
-/gamemode suq
-/gamemode survival
-/gamemode creative
-/give Player683 demonhunter:metamorphosis_spellbook
-/effect give Player683 demonhunter:metamorphosis
-/gamemode survival
-/spell_cooldown clear
-/spellbook list
-/gamemode creative
-/spell_cooldown clear Player695
-/effect give Player695 demonhunter:metamorphosis infinite 250
-/gamemode survival
-/effect clear
-/gamemode creative
-/give Player810 demonhunter:metamorphosis_spellbook
-/give Player810 demonhunter:vengeance_spell_book
-/gamemode survival
+/gamemode create
 /gamemode creative
 /give @p demonhunter:havoc_spellbook
+/effect give Player741 demonhunter:metamorphosis
+/gamemode survival

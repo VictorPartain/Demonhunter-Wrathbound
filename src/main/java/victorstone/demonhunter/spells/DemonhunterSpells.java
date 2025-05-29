@@ -28,8 +28,8 @@ public class DemonhunterSpells {
         var spell = new Spell();
 
         spell.type = Spell.Type.ACTIVE;
-        spell.school = SpellSchools.ARCANE;               // ✅ Required
-        spell.group = "primary";               // ✅ Must match spellbook JSON
+        spell.school = SpellSchools.ARCANE;
+        spell.group = "primary";
 
         spell.active = new Spell.Active();
         spell.active.cast = new Spell.Active.Cast();
@@ -44,9 +44,25 @@ public class DemonhunterSpells {
         spell.cost.cooldown = new Spell.Cost.Cooldown();
         spell.cost.cooldown.duration = 10;
 
-        spell.impacts = List.of();  // Add effects here if needed
+        spell.target = new Spell.Target();  // ✅ Required for self-casting effects
+
+        // Status effect
+        Spell.Impact impact = new Spell.Impact();
+        impact.action = new Spell.Impact.Action();
+        impact.action.type = Spell.Impact.Action.Type.STATUS_EFFECT;
+
+        Spell.Impact.Action.StatusEffect status = new Spell.Impact.Action.StatusEffect();
+        status.effect_id = "demonhunter:metamorphosis";
+        status.duration = 10.0F;
+        status.amplifier = 1;
+        status.show_particles = true;
+
+        impact.action.status_effect = status;
+        spell.impacts = List.of(impact);
 
         return new Entry(id, spell);
     }
+
+
 
 }
