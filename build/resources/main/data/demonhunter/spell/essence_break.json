@@ -1,0 +1,39 @@
+{
+  "school": "spell_power:arcane",
+  "group": "primary",
+  "tier": 1,
+  "active": {
+    "cast": {
+      "duration": 1.0,
+      "animation": "spell_engine:slam"
+    }
+  },
+  "release": {
+    "animation": "spell_engine:slam"
+  },
+  "target": {
+    "type": "AREA",
+    "area": {
+      "horizontal_range_multiplier": 4.0,
+      "angle_degrees": 100.0
+    }
+  },
+  "impacts": [
+    {
+      "action": {
+        "type": "STATUS_EFFECT",
+        "status_effect": {
+          "effect_id": "minecraft:weakness",
+          "duration": 8.0,
+          "amplifier": 1,
+          "show_particles": true
+        }
+      }
+    }
+  ],
+  "cost": {
+    "cooldown": {
+      "duration": 12.0
+    }
+  }
+}

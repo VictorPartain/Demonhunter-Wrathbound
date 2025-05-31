@@ -1,1 +1,3 @@
 /give @p demonhunter:havoc_spellbook
+/give Player368 book
+/gamemode creative

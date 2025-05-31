@@ -102,6 +102,59 @@ public class DemonhunterSpells {
 
         return new Entry(id, spell);
     }
+    public static final Entry ESSENCE_BREAK = add(createEssenceBreak());
+
+    private static Entry createEssenceBreak() {
+        Identifier id = Identifier.of(Demonhunter.MOD_ID, "essence_break");
+        Spell spell = new Spell();
+
+        spell.type = Spell.Type.ACTIVE;
+        spell.school = SpellSchools.ARCANE;
+        spell.group = "primary";
+
+        spell.active = new Spell.Active();
+        spell.active.cast = new Spell.Active.Cast();
+        spell.active.cast.duration = 1;
+        spell.active.cast.animation = "spell_engine:slam"; // visually aggressive
+
+        spell.release = new Spell.Release();
+        spell.release.animation = "spell_engine:slam";
+
+        spell.cost = new Spell.Cost();
+        spell.cost.cooldown = new Spell.Cost.Cooldown();
+        spell.cost.cooldown.duration = 12;
+
+        // Targeting setup
+        spell.target = new Spell.Target();
+        spell.target.type = Spell.Target.Type.AREA;
+
+        // Area targeting config (wide frontal cone)
+        Spell.Target.Area area = new Spell.Target.Area();
+        area.horizontal_range_multiplier = 4.0F; // wide
+        area.vertical_range_multiplier = 1.0F;
+        area.angle_degrees = 100.0F;             // wide cone
+        area.include_caster = false;
+
+        spell.target.area = area;
+
+        // Impact: apply Weakness
+        Spell.Impact impact = new Spell.Impact();
+        impact.action = new Spell.Impact.Action();
+        impact.action.type = Spell.Impact.Action.Type.STATUS_EFFECT;
+
+        Spell.Impact.Action.StatusEffect status = new Spell.Impact.Action.StatusEffect();
+        status.effect_id = "minecraft:weakness";
+        status.duration = 8.0F;     // 8 seconds
+        status.amplifier = 1;
+        status.show_particles = true;
+
+        impact.action.status_effect = status;
+        spell.impacts = List.of(impact);
+
+        return new Entry(id, spell);
+    }
+
+
 
 
 
