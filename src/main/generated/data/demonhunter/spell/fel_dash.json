@@ -1,0 +1,29 @@
+{
+  "school": "spell_power:arcane",
+  "group": "primary",
+  "tier": 1,
+  "active": {
+    "cast": {
+      "animation": "spell_engine:dash_forward"
+    }
+  },
+  "release": {
+    "animation": "spell_engine:dash_forward"
+  },
+  "impacts": [
+    {
+      "action": {
+        "type": "TELEPORT",
+        "teleport": {
+          "mode": "FORWARD",
+          "forward": {}
+        }
+      }
+    }
+  ],
+  "cost": {
+    "cooldown": {
+      "duration": 5.0
+    }
+  }
+}

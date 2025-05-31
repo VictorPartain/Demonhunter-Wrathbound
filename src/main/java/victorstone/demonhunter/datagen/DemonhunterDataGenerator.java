@@ -44,6 +44,8 @@ public class DemonhunterDataGenerator implements DataGeneratorEntrypoint {
         public void generateSpells(Builder builder) {
             // 👇 This forces the class to load and register the spell
             Spell dummy = DemonhunterSpells.METAMORPHOSIS.spell();
+            Spell dummy1 = DemonhunterSpells.FEL_DASH.spell();
+
 
             for (var entry : DemonhunterSpells.entries) {
                 builder.add(entry.id(), entry.spell());

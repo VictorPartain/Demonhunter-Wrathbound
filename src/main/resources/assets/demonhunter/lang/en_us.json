@@ -5,6 +5,9 @@
   "effect.demonhunter.metamorphosis": "Metamorphosis",
   "itemGroup.demonhunter.spellbooks": "Demonhunter Spell Books",
   "spell.demonhunter.metamorphosis.name": "Metamorphosis",
-  "spell.demonhunter.metamorphosis.description": "Unleash your inner demon."
+  "spell.demonhunter.metamorphosis.description": "Unleash your inner demon.",
+  "spell.demonhunter.fel_dash.name": "Fel Dash",
+  "spell.demonhunter.fel_dash.description": "Dash forward through demonic power."
+
 
 }

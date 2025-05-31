@@ -62,6 +62,47 @@ public class DemonhunterSpells {
 
         return new Entry(id, spell);
     }
+    public static final Entry FEL_DASH = add(createFelDash());
+
+    private static Entry createFelDash() {
+        Identifier id = Identifier.of(Demonhunter.MOD_ID, "fel_dash");
+        Spell spell = new Spell();
+
+        spell.type = Spell.Type.ACTIVE;
+        spell.school = SpellSchools.ARCANE;
+        spell.group = "primary";
+
+        spell.active = new Spell.Active();
+        spell.active.cast = new Spell.Active.Cast();
+        spell.active.cast.duration = 0;
+        spell.active.cast.animation = "spell_engine:dash_forward";
+
+        spell.release = new Spell.Release();
+        spell.release.animation = "spell_engine:dash_forward";
+
+        spell.cost = new Spell.Cost();
+        spell.cost.cooldown = new Spell.Cost.Cooldown();
+        spell.cost.cooldown.duration = 5.0F;
+
+        spell.target = new Spell.Target(); // defaults to caster
+
+        // Dash forward
+        Spell.Impact impact = new Spell.Impact();
+        impact.action = new Spell.Impact.Action();
+        impact.action.type = Spell.Impact.Action.Type.TELEPORT;
+
+        Spell.Impact.Action.Teleport teleport = new Spell.Impact.Action.Teleport();
+        teleport.mode = Spell.Impact.Action.Teleport.Mode.FORWARD;
+        teleport.forward = new Spell.Impact.Action.Teleport.Forward();
+        teleport.forward.distance = 10.0F;
+
+        impact.action.teleport = teleport;
+
+        spell.impacts = List.of(impact);
+
+        return new Entry(id, spell);
+    }
+
 
 
 

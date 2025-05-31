@@ -1,5 +1,1 @@
-/gamemode create
-/gamemode creative
 /give @p demonhunter:havoc_spellbook
-/effect give Player741 demonhunter:metamorphosis
-/gamemode survival

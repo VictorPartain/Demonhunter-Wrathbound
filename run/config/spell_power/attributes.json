@@ -9,10 +9,10 @@
     "critical_damage": {
       "bonus_per_stack": 0.1
     },
-    "haste": {
+    "critical_chance": {
       "bonus_per_stack": 0.05
     },
-    "critical_chance": {
+    "haste": {
       "bonus_per_stack": 0.05
     }
   },
