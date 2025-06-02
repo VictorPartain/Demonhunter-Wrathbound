@@ -1,0 +1,56 @@
+{
+  "school": "spell_power:arcane",
+  "range": 30.0,
+  "group": "primary",
+  "tier": 1,
+  "active": {
+    "cast": {
+      "duration": 2.0,
+      "animation": "spell_engine:channel_beam"
+    }
+  },
+  "release": {
+    "animation": "spell_engine:release_beam"
+  },
+  "target": {
+    "type": "BEAM",
+    "beam": {
+      "width": 1.5,
+      "flow": 2.0
+    }
+  },
+  "impacts": [
+    {
+      "action": {
+        "type": "DAMAGE",
+        "damage": {
+          "spell_power_coefficient": 1.5,
+          "knockback": 0.2
+        }
+      }
+    },
+    {
+      "action": {
+        "type": "HEAL",
+        "apply_to_caster": true,
+        "heal": {}
+      }
+    },
+    {
+      "action": {
+        "type": "STATUS_EFFECT",
+        "apply_to_caster": true,
+        "status_effect": {
+          "effect_id": "demonhunter:metamorphosis",
+          "duration": 5.0,
+          "show_particles": true
+        }
+      }
+    }
+  ],
+  "cost": {
+    "cooldown": {
+      "duration": 12.0
+    }
+  }
+}

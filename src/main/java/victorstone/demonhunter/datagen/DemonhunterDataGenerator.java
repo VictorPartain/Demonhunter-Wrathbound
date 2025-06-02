@@ -46,7 +46,7 @@ public class DemonhunterDataGenerator implements DataGeneratorEntrypoint {
             Spell dummy = DemonhunterSpells.METAMORPHOSIS.spell();
             Spell dummy1 = DemonhunterSpells.FEL_DASH.spell();
             Spell dummy2 = DemonhunterSpells.ESSENCE_BREAK.spell();
-
+            Spell dummy3 = DemonhunterSpells.EYE_BEAM.spell();
 
             for (var entry : DemonhunterSpells.entries) {
                 builder.add(entry.id(), entry.spell());

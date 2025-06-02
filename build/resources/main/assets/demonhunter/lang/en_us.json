@@ -9,7 +9,10 @@
   "spell.demonhunter.fel_dash.name": "Fel Dash",
   "spell.demonhunter.fel_dash.description": "Dash forward through demonic power.",
   "spell.demonhunter.essence_break.name": "Essence Break",
-  "spell.demonhunter.essence_break.description": "Blast enemies in a wide arc, weakening them."
+  "spell.demonhunter.essence_break.description": "Blast enemies in a wide arc, weakening them.",
+  "spell.demonhunter.eye_beam.name": "Eye Beam",
+  "spell.demonhunter.eye_beam.description": "Channel a devastating beam that damages enemies, heals you, and triggers Metamorphosis."
+
 
 
 

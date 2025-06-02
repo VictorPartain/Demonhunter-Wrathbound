@@ -1,3 +1,6 @@
 /give @p demonhunter:havoc_spellbook
 /give Player368 book
 /gamemode creative
+/give Player629 demonhunter:havoc_spellbook 1
+/give Player772 demonhunter:vengeance_spell_book
+/give Player772 demonhunter:vengeance_spellbook 1

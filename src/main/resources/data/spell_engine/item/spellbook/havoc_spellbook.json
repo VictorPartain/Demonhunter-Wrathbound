@@ -4,5 +4,7 @@
     "description": "Channel chaotic power.",
     "style": "default"
   },
-  "spell_group": "primary"
+  "spell_group": "primary",
+  "max_spell_count": 4
+
 }
