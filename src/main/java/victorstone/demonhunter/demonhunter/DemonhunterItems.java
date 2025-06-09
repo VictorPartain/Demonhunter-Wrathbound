@@ -3,32 +3,34 @@ package victorstone.demonhunter.demonhunter;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
-import net.minecraft.sound.SoundEvent;
-import net.minecraft.sound.SoundEvents;
 import net.minecraft.util.Identifier;
 import net.spell_engine.compat.trinkets.SpellBookTrinketItem;
 
-
 public class DemonhunterItems {
 
-    // Register your custom spell book
-    public static final Item Havoc = register(
+    public static final Item HAVOC_SPELLBOOK = register(
             "metamorphosis_spellbook",
             new SpellBookTrinketItem(
                     new Item.Settings().maxCount(1),
                     Identifier.of("demonhunter", "havoc"),
-//                    DemonhunterSounds.metamorphosis.sound
                     null
             )
     );
 
-    // Static method to register an item
+    public static final Item VENGEANCE_SPELLBOOK = register(
+            "vengeance_spellbook",
+            new SpellBookTrinketItem(
+                    new Item.Settings().maxCount(1),
+                    Identifier.of("demonhunter", "vengeance"),
+                    null
+            )
+    );
+
     private static Item register(String name, Item item) {
-        return Registry.register(Registries.ITEM,  Identifier.of("demonhunter", name), item);
+        return Registry.register(Registries.ITEM, Identifier.of("demonhunter", name), item);
     }
 
-    // Call this in your mod initializer to register everything
     public static void registerItems() {
-        // Forces class load to trigger static initializers (optional in some setups)
+        // Optional
     }
 }

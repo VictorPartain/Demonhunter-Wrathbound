@@ -4,3 +4,9 @@
 /give Player629 demonhunter:havoc_spellbook 1
 /give Player772 demonhunter:vengeance_spell_book
 /give Player772 demonhunter:vengeance_spellbook 1
+/gamemode survival
+/gamemode creative
+/kill
+/effect give Player109 minecraft:strength infinite 250
+/effect clear
+/gamemode survival

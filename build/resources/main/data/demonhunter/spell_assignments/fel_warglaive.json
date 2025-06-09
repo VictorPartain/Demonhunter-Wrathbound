@@ -1,0 +1,5 @@
+{
+  "is_proxy": true,
+  "pool": "demonhunter:havoc",
+  "max_spell_count": 4
+}

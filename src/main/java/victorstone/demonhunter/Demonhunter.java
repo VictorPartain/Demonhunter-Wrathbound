@@ -11,8 +11,10 @@ import net.minecraft.text.Text;
 import net.spell_engine.api.config.ConfigFile;
 import net.tinyconfig.ConfigManager;
 import net.wizards.config.Default;
+//import victorstone.demonhunter.demonhunter.DemonhunterItemGroup;
 import victorstone.demonhunter.demonhunter.DemonhunterItems;
 import victorstone.demonhunter.demonhunter.DemonhunterSounds;
+//import victorstone.demonhunter.demonhunter.DemonhunterWeapons;
 import victorstone.demonhunter.effect.DemonhunterEffects;
 import victorstone.demonhunter.item.Group;
 import victorstone.demonhunter.item.DemonhunterBooks;
@@ -58,6 +60,8 @@ public class Demonhunter implements ModInitializer {
 		shieldConfig.refresh();
 		effectsConfig.refresh();
 		villageConfig.refresh();
+//		DemonhunterItemGroup.register();
+//		DemonhunterWeapons.register(WeaponConfigs.WEAPONS); // adjust reference to your actual config
 		DemonhunterSounds.register(); // Make sure this is called
 		DemonhunterItems.registerItems(); // ← This ensures the spell book gets registered
 
