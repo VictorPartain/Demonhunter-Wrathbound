@@ -12,11 +12,9 @@ import net.spell_engine.api.config.ConfigFile;
 import net.tinyconfig.ConfigManager;
 import net.wizards.config.Default;
 //import victorstone.demonhunter.demonhunter.DemonhunterItemGroup;
-import victorstone.demonhunter.demonhunter.DemonhunterItems;
-import victorstone.demonhunter.demonhunter.DemonhunterSounds;
+import victorstone.demonhunter.demonhunter.*;
 //import victorstone.demonhunter.demonhunter.DemonhunterWeapons;
 import victorstone.demonhunter.effect.DemonhunterEffects;
-import victorstone.demonhunter.item.Group;
 import victorstone.demonhunter.item.DemonhunterBooks;
 
 public class Demonhunter implements ModInitializer {
@@ -55,6 +53,7 @@ public class Demonhunter implements ModInitializer {
 //			.sanitize(true)
 //			.build();
 
+
 	public void onInitialize() {
 		itemConfig.refresh();
 		shieldConfig.refresh();
@@ -63,7 +62,7 @@ public class Demonhunter implements ModInitializer {
 //		DemonhunterItemGroup.register();
 //		DemonhunterWeapons.register(WeaponConfigs.WEAPONS); // adjust reference to your actual config
 		DemonhunterSounds.register(); // Make sure this is called
-		DemonhunterItems.registerItems(); // ← This ensures the spell book gets registered
+		DemonhunterSpellbooks.registerItems(); // ← This ensures the spell book gets registered
 
 //		tweaksConfig.refresh();
 //		if (FabricLoader.getInstance().isDevelopmentEnvironment()) {
@@ -71,11 +70,18 @@ public class Demonhunter implements ModInitializer {
 //		}
 
 
-		Group.DEMONHUNTER = FabricItemGroup.builder()
-//				.icon(() -> new ItemStack(Armors.paladinArmorSet_t2.head))
+		DemonhunterItemGroup.DEMONHUNTER = FabricItemGroup.builder()
+				.icon(() -> new ItemStack(DemonhunterWeapons.fel_warglaive.item()))
 				.displayName(Text.translatable("itemGroup.demonhunter.spellbooks"))
+				.entries((context, entries) -> {
+					DemonhunterWeapons.entries.forEach(entry -> entries.add(entry.item()));
+					entries.add(DemonhunterSpellbooks.HAVOC_SPELLBOOK);
+					entries.add(DemonhunterSpellbooks.VENGEANCE_SPELLBOOK);
+				})
 				.build();
-		Registry.register(Registries.ITEM_GROUP, Group.KEY, Group.DEMONHUNTER);
+
+		Registry.register(Registries.ITEM_GROUP, DemonhunterItemGroup.KEY, DemonhunterItemGroup.DEMONHUNTER);
+
 //		DemonhunterBlocks.register();
 		DemonhunterBooks.register();
 
@@ -90,8 +96,4 @@ public class Demonhunter implements ModInitializer {
 
 	}
 
-
-//	static {
-////		PaladinEntities.register();
-//	}
 }

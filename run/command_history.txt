@@ -10,3 +10,4 @@
 /effect give Player109 minecraft:strength infinite 250
 /effect clear
 /gamemode survival
+/gamemode creative

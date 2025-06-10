@@ -8,6 +8,7 @@ import net.minecraft.util.Identifier;
 import net.spell_engine.api.item.SpellBooks;
 import net.spell_engine.compat.trinkets.SpellBookTrinketItem;
 import victorstone.demonhunter.Demonhunter;
+import victorstone.demonhunter.demonhunter.DemonhunterItemGroup;
 import victorstone.demonhunter.demonhunter.DemonhunterSounds;
 
 import java.util.List;
@@ -18,7 +19,7 @@ public class DemonhunterBooks {
     public static void register() {
         var books = List.of("havoc","vengeance");
         for (var name: books) {
-            SpellBooks.createAndRegister(Identifier.of(Demonhunter.MOD_ID, name), Group.KEY);
+            SpellBooks.createAndRegister(Identifier.of(Demonhunter.MOD_ID, name), DemonhunterItemGroup.KEY);
         }
     }
     public static final Item HAVOC_SPELLBOOK = Registry.register(

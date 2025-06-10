@@ -13,6 +13,7 @@ import net.spell_power.api.SpellSchools;
 import victorstone.demonhunter.Demonhunter;
 import victorstone.demonhunter.demonhunter.DemonhunterItemGroup;
 
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
@@ -26,24 +27,24 @@ public class DemonhunterWeapons {
         return entry;
     }
 
-    private static final float warglaiveDamage = 5.5F;
-    private static final float warglaiveSpeed = -2.0F;
+    private static final float glaiveDamage = 5.5F;
+    private static final float glaiveSpeed = -2.0F;
 
-    private static Weapon.Entry createWarglaive(String name) {
+    private static Weapon.Entry glaive(String name) {
         return entry(
                 name,
                 Weapon.CustomMaterial.matching(ToolMaterials.NETHERITE, () -> Ingredient.ofItems(Items.NETHERITE_INGOT)),
                 SpellSwordItem::new,
-                new WeaponConfig(warglaiveDamage, warglaiveSpeed),
+                new WeaponConfig(glaiveDamage, glaiveSpeed),
                 Equipment.WeaponType.SWORD
         );
     }
 
-    public static final Weapon.Entry WARGLAIVE = createWarglaive("warglaive")
+    public static final Weapon.Entry fel_warglaive = glaive("fel_warglaive")
             .attribute(AttributeModifier.bonus(SpellSchools.ARCANE.id, 2.5F))
             .loot(Equipment.LootProperties.of(3));
 
     public static void register(Map<String, WeaponConfig> configs) {
-        Weapon.register(configs, entries, victorstone.demonhunter.DemonhunterItemGroup.KEY);
+        Weapon.register(configs, entries, DemonhunterItemGroup.KEY);
     }
 }
