@@ -11,3 +11,4 @@
 /effect clear
 /gamemode survival
 /gamemode creative
+/give Player233 demonhunter:fel_warglaive

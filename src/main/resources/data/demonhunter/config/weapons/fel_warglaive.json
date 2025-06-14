@@ -1,0 +1,9 @@
+{
+  "base": "demonhunter:fel_warglaive",
+  "damage": 5.5,
+  "swing_speed": -2.0,
+  "spell_school_bonuses": {
+    "spell_power:arcane": 2.5
+  },
+  "cooldown_ticks": 5
+}

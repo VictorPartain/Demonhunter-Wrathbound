@@ -1,4 +1,16 @@
 {
-  "weapons": {},
+  "weapons": {
+    "fel_warglaive": {
+      "attack_damage": 5.5,
+      "attack_speed": -2.0,
+      "attributes": [
+        {
+          "attribute": "spell_power:arcane",
+          "value": 2.5,
+          "operation": "ADD_VALUE"
+        }
+      ]
+    }
+  },
   "armor_sets": {}
 }

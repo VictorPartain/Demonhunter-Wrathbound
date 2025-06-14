@@ -11,9 +11,20 @@ base {
 }
 
 repositories {
+	exclusiveContent{
+		forRepository {
+			maven{
+				url "https://cursemaven.com"
+			}
+		}
+		filter{
+			includeGroup("curse.maven")
+		}
+	}
 	maven { url = 'https://maven.kosmx.dev/' }
 	maven { url = 'https://maven.shedaniel.me/' }
 	maven { url = 'https://jitpack.io' }
+	maven { url "https://maven.wispforest.io" }
 	maven {
 		name = 'Modrinth'
 		url = 'https://api.modrinth.com/maven'
@@ -57,7 +68,7 @@ dependencies {
 	modApi("me.shedaniel.cloth:cloth-config-fabric:${project.cloth_config_version}") {
 		exclude(group: "net.fabricmc.fabric-api")
 	}
-
+//	modImplementation("io.wispforest:photon:${photon_version}")
 	modImplementation("maven.modrinth:spell-engine:${project.spell_engine_version}")
 	modImplementation("maven.modrinth:more-rpg-classes:${project.more_rpg_classes_version}")
 	modImplementation("maven.modrinth:wizards:${project.wizards_version}")
@@ -67,6 +78,7 @@ dependencies {
 	modImplementation("mod.azure.azurelibarmor:azurelibarmor-fabric-${project.azure_mc_version}:${project.azure_lib_version}")
 	include(modImplementation("maven.modrinth:structure-pool-api:${project.structure_pool_api_version}"))
 	modImplementation("maven.modrinth:runes:${project.runes_version}")
+
 }
 
 sourceSets {

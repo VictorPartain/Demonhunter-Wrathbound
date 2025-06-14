@@ -1,5 +1,5 @@
 package victorstone.demonhunter;
-
+import net.spell_engine.api.config.WeaponConfig;
 import net.fabric_extras.structure_pool.api.StructurePoolConfig;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
@@ -71,10 +71,19 @@ public class Demonhunter implements ModInitializer {
 
 
 		DemonhunterItemGroup.DEMONHUNTER = FabricItemGroup.builder()
-				.icon(() -> new ItemStack(DemonhunterWeapons.fel_warglaive.item()))
+				.icon(() -> {
+					ItemStack stack = DemonhunterWeapons.fel_warglaive != null && DemonhunterWeapons.fel_warglaive.item() != null
+							? new ItemStack(DemonhunterWeapons.fel_warglaive.item())
+							: new ItemStack(net.minecraft.item.Items.NETHERITE_SWORD); // fallback icon
+					return stack;
+				})
 				.displayName(Text.translatable("itemGroup.demonhunter.spellbooks"))
 				.entries((context, entries) -> {
-					DemonhunterWeapons.entries.forEach(entry -> entries.add(entry.item()));
+					DemonhunterWeapons.entries.forEach(entry -> {
+						if (entry != null && entry.item() != null) {
+							entries.add(entry.item());
+						}
+					});
 					entries.add(DemonhunterSpellbooks.HAVOC_SPELLBOOK);
 					entries.add(DemonhunterSpellbooks.VENGEANCE_SPELLBOOK);
 				})
@@ -84,6 +93,8 @@ public class Demonhunter implements ModInitializer {
 
 //		DemonhunterBlocks.register();
 		DemonhunterBooks.register();
+		DemonhunterWeapons.register(itemConfig.value.weapons);
+
 
 //		Weapons.register(itemConfig.value.weapons);
 //		Shields.register(shieldConfig.value.shields);
