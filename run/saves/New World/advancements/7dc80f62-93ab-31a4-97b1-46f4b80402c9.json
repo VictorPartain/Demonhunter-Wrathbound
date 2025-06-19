@@ -1,0 +1,40 @@
+{
+  "rpg_series:root": {
+    "criteria": {
+      "always": "2025-06-16 09:02:52 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-06-16 09:02:52 -0700"
+    },
+    "done": true
+  },
+  "rpg_series:misc_items": {
+    "criteria": {
+      "always": "2025-06-16 09:02:52 -0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:stony_shore": "2025-06-16 09:02:52 -0700",
+      "minecraft:plains": "2025-06-16 09:05:45 -0700"
+    },
+    "done": false
+  },
+  "more_rpg_content:root": {
+    "criteria": {
+      "always": "2025-06-16 09:02:52 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/beacon": {
+    "criteria": {
+      "has_nether_star": "2025-06-16 09:02:51 -0700"
+    },
+    "done": true
+  },
+  "DataVersion": 3955
+}
